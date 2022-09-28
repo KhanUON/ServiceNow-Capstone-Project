@@ -13,5 +13,6 @@
                 <element inactive_on_update="false" label="House" sequence="2" value="house"/>
             </choice>
         </element>
+        <element attributes="encode_utf8=false" label="Tenant" max_length="32" name="tenant" reference="sys_user" type="reference"/>
     </element>
 </database>
