@@ -12,7 +12,7 @@
         <element attributes="edge_encryption_enabled=true" label="Maintenance Type" mandatory="true" max_length="40" name="main_type" type="string">
             <choice/>
         </element>
-        <element attributes="encode_utf8=false" label="Property Address" mandatory="true" max_length="32" name="property_addr" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element attributes="encode_utf8=false" label="Property Address" mandatory="true" max_length="32" name="property_addr" reference="x_874730_icloud_re_property_location" type="reference"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Quote" max_length="20" name="quote" read_only="true" type="price"/>
         <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="40" name="short_desc" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Tenant's Name" mandatory="true" max_length="40" name="tenant_name" type="string"/>
