@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_874730_icloud_re_property_for_rent" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_874730_icloud_re_property_for_rent</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>888</sys_created_by>
+            <sys_created_on>2022-09-27 23:25:40</sys_created_on>
+            <sys_id>05691a842f1a1110b63859a72799b672</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+            <sys_update_name>sys_choice_x_874730_icloud_re_property_for_rent_state</sys_update_name>
+            <sys_updated_by>888</sys_updated_by>
+            <sys_updated_on>2022-09-27 23:25:40</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>For Rent</label>
+            <language>en</language>
+            <name>x_874730_icloud_re_property_for_rent</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>888</sys_created_by>
+            <sys_created_on>2022-09-27 23:25:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd691a842f1a1110b63859a72799b671</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>888</sys_updated_by>
+            <sys_updated_on>2022-09-27 23:25:40</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rented</label>
+            <language>en</language>
+            <name>x_874730_icloud_re_property_for_rent</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>888</sys_created_by>
+            <sys_created_on>2022-09-27 23:25:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d691a842f1a1110b63859a72799b674</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>888</sys_updated_by>
+            <sys_updated_on>2022-09-27 23:25:40</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

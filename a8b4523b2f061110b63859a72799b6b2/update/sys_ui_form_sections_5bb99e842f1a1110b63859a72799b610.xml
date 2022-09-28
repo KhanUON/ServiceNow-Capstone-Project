@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="5bb99e842f1a1110b63859a72799b610" sys_domain="global" table="x_874730_icloud_re_property_for_rent" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>888</sys_created_by>
+            <sys_created_on>2022-09-27 23:27:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23b99e842f1a1110b63859a72799b613</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_874730_icloud_re_property_for_rent" name="x_874730_icloud_re_property_for_rent" sys_domain="global" view="52a5c07121120110a866589604c20d2a">5bb99e842f1a1110b63859a72799b610</sys_ui_form>
+            <sys_ui_section caption="Property Information" display_value="Property Information" name="x_874730_icloud_re_property_for_rent" sys_domain="global" view="52a5c07121120110a866589604c20d2a">53b99e842f1a1110b63859a72799b60f</sys_ui_section>
+            <sys_updated_by>888</sys_updated_by>
+            <sys_updated_on>2022-09-27 23:27:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>888</sys_created_by>
+            <sys_created_on>2022-09-27 23:27:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ebb99e842f1a1110b63859a72799b613</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_874730_icloud_re_property_for_rent" name="x_874730_icloud_re_property_for_rent" sys_domain="global" view="52a5c07121120110a866589604c20d2a">5bb99e842f1a1110b63859a72799b610</sys_ui_form>
+            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_874730_icloud_re_property_for_rent" sys_domain="global" view="52a5c07121120110a866589604c20d2a">dbb99e842f1a1110b63859a72799b60f</sys_ui_section>
+            <sys_updated_by>888</sys_updated_by>
+            <sys_updated_on>2022-09-27 23:27:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_874730_icloud_re_property_for_rent</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>888</sys_created_by>
+            <sys_created_on>2022-09-27 23:27:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5bb99e842f1a1110b63859a72799b610</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_874730_icloud_re_property_for_rent</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+            <sys_update_name>sys_ui_form_sections_5bb99e842f1a1110b63859a72799b610</sys_update_name>
+            <sys_updated_by>888</sys_updated_by>
+            <sys_updated_on>2022-09-27 23:27:12</sys_updated_on>
+            <sys_user/>
+            <view display_value="Self Service" name="ess">52a5c07121120110a866589604c20d2a</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Key Collection" max_length="40" name="x_874730_icloud_re_key_collection" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Collection Date" max_length="40" name="collectiondate" read_only="true" type="glide_date"/>
+        <element label="Key Number" mandatory="true" max_length="40" name="keynumber" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Key Type(s)" mandatory="true" max_length="40" name="keytypes" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Front Door only" sequence="0" value="front door only"/>
+                <element inactive_on_update="false" label="Garage only" sequence="1" value="garage only"/>
+                <element inactive_on_update="false" label="FOB only" sequence="2" value="fob only"/>
+                <element inactive_on_update="false" label="Front Door and FOB only" sequence="3" value="front door and fob only"/>
+                <element inactive_on_update="false" label="FOB and Garage only" sequence="4" value="fob and garage only"/>
+                <element inactive_on_update="false" label="Garage and Front Door only" sequence="5" value="garage and front door only"/>
+                <element inactive_on_update="false" label="All 3" sequence="6" value="all 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Property Address" mandatory="true" max_length="40" name="propertyaddress" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Property Manager Name" max_length="40" name="propertymanagername" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tenant Name" mandatory="true" max_length="40" name="tenantname" type="string"/>
+    </element>
+</database>

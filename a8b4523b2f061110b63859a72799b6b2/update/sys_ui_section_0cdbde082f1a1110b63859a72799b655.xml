@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Maintenance Description" section_id="0cdbde082f1a1110b63859a72799b655" sys_domain="global" table="x_874730_icloud_re_maintenance_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>trade_name</element>
+            <position>0</position>
+            <sys_created_by>777</sys_created_by>
+            <sys_created_on>2022-09-27 23:37:39</sys_created_on>
+            <sys_id>e82c16482f1a1110b63859a72799b681</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Maintenance Description" display_value="Maintenance Description" name="x_874730_icloud_re_maintenance_request" sys_domain="global" view="Default view">0cdbde082f1a1110b63859a72799b655</sys_ui_section>
+            <sys_updated_by>777</sys_updated_by>
+            <sys_updated_on>2022-09-27 23:37:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quote</element>
+            <position>1</position>
+            <sys_created_by>777</sys_created_by>
+            <sys_created_on>2022-09-27 23:37:39</sys_created_on>
+            <sys_id>6c2c16482f1a1110b63859a72799b681</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Maintenance Description" display_value="Maintenance Description" name="x_874730_icloud_re_maintenance_request" sys_domain="global" view="Default view">0cdbde082f1a1110b63859a72799b655</sys_ui_section>
+            <sys_updated_by>777</sys_updated_by>
+            <sys_updated_on>2022-09-27 23:37:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_stat</element>
+            <position>2</position>
+            <sys_created_by>777</sys_created_by>
+            <sys_created_on>2022-09-27 23:37:39</sys_created_on>
+            <sys_id>ec2c16482f1a1110b63859a72799b681</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Maintenance Description" display_value="Maintenance Description" name="x_874730_icloud_re_maintenance_request" sys_domain="global" view="Default view">0cdbde082f1a1110b63859a72799b655</sys_ui_section>
+            <sys_updated_by>777</sys_updated_by>
+            <sys_updated_on>2022-09-27 23:37:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Maintenance Description</caption>
+            <header>false</header>
+            <name>x_874730_icloud_re_maintenance_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>777</sys_created_by>
+            <sys_created_on>2022-09-27 23:36:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0cdbde082f1a1110b63859a72799b655</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_874730_icloud_re_maintenance_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+            <sys_update_name>sys_ui_section_0cdbde082f1a1110b63859a72799b655</sys_update_name>
+            <sys_updated_by>777</sys_updated_by>
+            <sys_updated_on>2022-09-27 23:36:15</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
