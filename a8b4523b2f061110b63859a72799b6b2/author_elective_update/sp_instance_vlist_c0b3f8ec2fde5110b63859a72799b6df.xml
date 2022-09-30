@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>u_reference_1</display_field>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">f2dbd4282f9e5110b63859a72799b66a</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Requested Items">624afdb3d7230200a9addd173e24d4f4</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>888</sys_created_by>
+        <sys_created_on>2022-09-29 05:18:17</sys_created_on>
+        <sys_id>c0b3f8ec2fde5110b63859a72799b6df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>sp_instance_vlist_c0b3f8ec2fde5110b63859a72799b6df</sys_update_name>
+        <sys_updated_by>888</sys_updated_by>
+        <sys_updated_on>2022-09-29 05:22:01</sys_updated_on>
+        <table>x_874730_icloud_re_maintenance_request</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"auto_expand_request_item_stages": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=c0b3f8ec2fde5110b63859a72799b6df"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</application>
+        <file_path/>
+        <instance_id>eea0005edb77db4052e3f70fbf961990</instance_id>
+        <instance_name>dev69809</instance_name>
+        <name>sp_instance_vlist_c0b3f8ec2fde5110b63859a72799b6df</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;&lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;u_reference_1&lt;/display_field&gt;&lt;field_list/&gt;&lt;filter/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;maximum_entries&gt;5&lt;/maximum_entries&gt;&lt;order&gt;1&lt;/order&gt;&lt;order_by/&gt;&lt;order_direction&gt;asc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;f2dbd4282f9e5110b63859a72799b66a&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Requested Items"&gt;624afdb3d7230200a9addd173e24d4f4&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;&lt;sys_created_by&gt;888&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-29 05:18:17&lt;/sys_created_on&gt;&lt;sys_id&gt;c0b3f8ec2fde5110b63859a72799b6df&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re"&gt;a8b4523b2f061110b63859a72799b6b2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Icloud Real Estate"&gt;a8b4523b2f061110b63859a72799b6b2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_vlist_c0b3f8ec2fde5110b63859a72799b6df&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;888&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-29 05:22:01&lt;/sys_updated_on&gt;&lt;table&gt;x_874730_icloud_re_maintenance_request&lt;/table&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"auto_expand_request_item_stages": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_vlist&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c0b3f8ec2fde5110b63859a72799b6df"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>243629304</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>83236ecc2f1a1110b63859a72799b691</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>888</sys_created_by>
+        <sys_created_on>2022-09-29 05:22:01</sys_created_on>
+        <sys_id>ba8478ec2fde5110b63859a72799b6c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18387b1d3fe0000001</sys_recorded_at>
+        <sys_updated_by>888</sys_updated_by>
+        <sys_updated_on>2022-09-29 05:22:01</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>b28478ec1ade5110ad9450c33ea259c4</update_guid>
+        <update_guid_history>b28478ec1ade5110ad9450c33ea259c4:243629304,00b3f8ec3fde51109b119f0ad31d32e1:-270591412</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">33fdb0682f129110b63859a72799b60d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>888</sys_created_by>
+        <sys_created_on>2022-09-29 06:03:20</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>323411f98af34f16a427bdae7ed7ab64</sys_id>
+        <sys_metadata>c0b3f8ec2fde5110b63859a72799b6df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_scope_delete display_value="">96ec03c5910d46109a80415a4bf51840</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_c0b3f8ec2fde5110b63859a72799b6df</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_c0b3f8ec2fde5110b63859a72799b6df">ba8478ec2fde5110b63859a72799b6c4</sys_update_version>
+        <sys_updated_by>888</sys_updated_by>
+        <sys_updated_on>2022-09-29 06:03:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

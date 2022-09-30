@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_announcement_portal">
+    <m2m_announcement_portal action="INSERT_OR_UPDATE">
+        <announcement display_value="Urgent Maintenance Request">5f8a70642f129110b63859a72799b605</announcement>
+        <order>100</order>
+        <sp_portal display_value="Icloud Real Estate">275658e02f9e5110b63859a72799b608</sp_portal>
+        <sys_class_name>m2m_announcement_portal</sys_class_name>
+        <sys_created_by>888</sys_created_by>
+        <sys_created_on>2022-09-29 05:55:24</sys_created_on>
+        <sys_id>8c9a34642f129110b63859a72799b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.Icloud Real Estate</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>m2m_announcement_portal_8c9a34642f129110b63859a72799b696</sys_update_name>
+        <sys_updated_by>888</sys_updated_by>
+        <sys_updated_on>2022-09-29 05:55:24</sys_updated_on>
+    </m2m_announcement_portal>
+</record_update>
