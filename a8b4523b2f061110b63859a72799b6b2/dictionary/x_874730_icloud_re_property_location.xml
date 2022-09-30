@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Property location" max_length="40" name="x_874730_icloud_re_property_location" type="collection">
+    <element label="Property" max_length="40" name="x_874730_icloud_re_property_location" sizeclass="1" type="collection">
         <element display="true" label="Property address" max_length="40" name="property_address" type="string"/>
-        <element label="Tenant Name" max_length="40" name="tenant_name" reference="x_874730_icloud_re_property_for_rent" type="string"/>
+        <element label="Rented" max_length="40" name="rented" type="boolean"/>
+        <element label="Tenant Name" max_length="40" name="tenant_name" reference="sys_user" type="string"/>
+        <element attributes="encode_utf8=false" dependent="u_property_manager" dependent_on_field="u_property_manager" label="Property Manager" max_length="32" name="u_property_manager" reference="sys_user_has_role" type="reference" use_dependent_field="true"/>
+        <index name="index">
+            <element name="u_property_manager"/>
+        </index>
     </element>
 </database>

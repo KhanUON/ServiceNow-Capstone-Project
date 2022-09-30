@@ -13,10 +13,10 @@
                 <element inactive_on_update="false" label="All 3" sequence="6" value="all 3"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Property Address" mandatory="true" max_length="40" name="propertyaddress" type="string" use_dependent_field="true">
+        <element attributes="address" choice="2" dependent="address" dependent_on_field="address" label="Property Address" mandatory="true" max_length="100" name="propertyaddress" reference="x_874730_icloud_re_icloud_property" reference_key="address" type="reference" use_dependent_field="true">
             <choice/>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Property Manager Name" max_length="40" name="propertymanagername" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Property Manager Name" max_length="40" name="propertymanagername" reference="sys_user" reference_qual="roles=x_874730_icloud_re.icloud_admin^EQ" reference_qual_condition="roles=x_874730_icloud_re.icloud_admin^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Tenant Name" mandatory="true" max_length="40" name="tenantname" type="string"/>
     </element>
 </database>

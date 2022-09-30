@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>New Property for Rent</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Property for Rent</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">55464cb521120110a866589604c20d56</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-27 04:32:54</sys_created_on>
+        <sys_id>bb1696bb2f061110b63859a72799b605</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Property for Rent</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>sys_wizard_answer_bb1696bb2f061110b63859a72799b605</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-27 04:32:54</sys_updated_on>
+        <table/>
+        <target_url>x_874730_icloud_re_property_for_rent.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</application>
+        <file_path/>
+        <instance_id>eea0005edb77db4052e3f70fbf961990</instance_id>
+        <instance_name>dev69809</instance_name>
+        <name>sys_wizard_answer_bb1696bb2f061110b63859a72799b605</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>New Property for Rent</answer><button_label/><dependent_value/><element/><name>Property for Rent</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">55464cb521120110a866589604c20d56</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-27 04:32:54</sys_created_on><sys_id>bb1696bb2f061110b63859a72799b605</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Property for Rent</sys_name><sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package><sys_policy/><sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope><sys_update_name>sys_wizard_answer_bb1696bb2f061110b63859a72799b605</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-27 04:32:54</sys_updated_on><table/><target_url>x_874730_icloud_re_property_for_rent.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-1763926823</payload_hash>
+        <record_name>Property for Rent</record_name>
+        <reverted_from/>
+        <source>6cb4523b2f061110b63859a72799b6b4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-27 04:32:54</sys_created_on>
+        <sys_id>f71696bb2f061110b63859a72799b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1837d3824170000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-27 04:32:54</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>331696bbb6061110d2351f213e341308</update_guid>
+        <update_guid_history>331696bbb6061110d2351f213e341308:-1763926823</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>1234</sys_created_by>
+        <sys_created_on>2022-09-28 05:36:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>2595d2cf278b4b128e0506eb896789b1</sys_id>
+        <sys_metadata>bb1696bb2f061110b63859a72799b605</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Property for Rent</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_parent display_value="Task">55464cb521120110a866589604c20d56</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_scope_delete display_value="">96ec03c5910d46109a80415a4bf51840</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_bb1696bb2f061110b63859a72799b605</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_bb1696bb2f061110b63859a72799b605">f71696bb2f061110b63859a72799b608</sys_update_version>
+        <sys_updated_by>1234</sys_updated_by>
+        <sys_updated_on>2022-09-28 05:36:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
