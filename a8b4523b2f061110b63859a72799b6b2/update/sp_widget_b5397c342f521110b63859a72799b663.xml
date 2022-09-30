@@ -34,7 +34,7 @@ if(c.options.title =='' || !c.options.title) {
 }
 
 a {
-  color:#000000;
+  color:#FF0000;
 }
 
 
@@ -58,14 +58,14 @@ a {
         <sys_created_by>888</sys_created_by>
         <sys_created_on>2022-09-30 00:20:55</sys_created_on>
         <sys_id>b5397c342f521110b63859a72799b663</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Emergency Contact</sys_name>
         <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
         <sys_update_name>sp_widget_b5397c342f521110b63859a72799b663</sys_update_name>
         <sys_updated_by>888</sys_updated_by>
-        <sys_updated_on>2022-09-30 00:46:17</sys_updated_on>
+        <sys_updated_on>2022-09-30 00:51:33</sys_updated_on>
         <template><![CDATA[<!-- ************* -->
 <!-- HTML Template -->
 <!-- ************* -->
@@ -74,15 +74,15 @@ a {
   <!-- Title from Widget Instance Properties -->
   <h3 class="text-primary">{{::c.options.title}}</h3>
 
-  <!-- Daytime Security -->
+  <!-- Daytime Contact -->
   <div class="contact-row">
-    <div class="label-left" >${Emergency Contact - During Business Hours}</div>
+    <div class="label-left" >${Emergency Contact - Business Hours 02 7201 0000}</div>
     <div class="label-right"><a href="tel:{{c.options.daytime_phone}}">{{::c.options.daytime_phone}}</a></div>
   </div>
 
-  <!-- After-hours Security -->
+  <!-- After-hours Contact -->
   <div class="contact-row">
-    <div class="label-left">${Emergency - After Hours}</div>
+    <div class="label-left">${Emergency - After Hours 02 7201 9999 }</div>
     <div class="label-right"><a href="tel:{{c.options.emergency_phone}}">{{::c.options.emergency_phone}}</a></div>
   </div>
 
