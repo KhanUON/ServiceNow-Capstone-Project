@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="DELETE">
+        <css_variables>/* CLOUD DIMENSIONS OFFICIAL COLORS */&#13;
+$cloud-Primary: #22577A;&#13;
+$cloud-Secondary: #38A3A5;&#13;
+$cloud-CloudWhite: #ece5de;&#13;
+$cloud-CloudBlack: #323232;&#13;
+&#13;
+/* ELEMENT SPECIFIC CSS */&#13;
+$sp-tagline-color:		$cloud-CloudWhite !57CC99;&#13;
+$navbar-inverse-bg: 	#000000 !57CC99;&#13;
+$navbar-inverse-link-color: $cloud-CloudWhite !57CC99;&#13;
+$navbar-inverse-link-hover-color: $cloud-Primary !57CC99;&#13;
+$body-bg: $cloud-Secondary !default;</css_variables>
+        <footer/>
+        <footer_fixed>false</footer_fixed>
+        <header display_value="Employee Center Header">d0009941eb103010ed7966d6475228c1</header>
+        <name>Icloud Real Estate</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>888</sys_created_by>
+        <sys_created_on>2022-09-30 01:16:47</sys_created_on>
+        <sys_id>57f4c9702f921110b63859a72799b606</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Icloud Real Estate</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>sp_theme_57f4c9702f921110b63859a72799b606</sys_update_name>
+        <sys_updated_by>888</sys_updated_by>
+        <sys_updated_on>2022-09-30 01:16:47</sys_updated_on>
+    </sp_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</application>
+        <file_path/>
+        <instance_id>eea0005edb77db4052e3f70fbf961990</instance_id>
+        <instance_name>dev69809</instance_name>
+        <name>sp_theme_57f4c9702f921110b63859a72799b606</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme"><sp_theme action="INSERT_OR_UPDATE"><css_variables>/* CLOUD DIMENSIONS OFFICIAL COLORS */&#13;
+$cloud-Primary: #22577A;&#13;
+$cloud-Secondary: #38A3A5;&#13;
+$cloud-CloudWhite: #ece5de;&#13;
+$cloud-CloudBlack: #323232;&#13;
+&#13;
+/* ELEMENT SPECIFIC CSS */&#13;
+$sp-tagline-color:		$cloud-CloudWhite !57CC99;&#13;
+$navbar-inverse-bg: 	#000000 !57CC99;&#13;
+$navbar-inverse-link-color: $cloud-CloudWhite !57CC99;&#13;
+$navbar-inverse-link-hover-color: $cloud-Primary !57CC99;&#13;
+$body-bg: $cloud-Secondary !default;</css_variables><footer/><footer_fixed>false</footer_fixed><header display_value="Employee Center Header">d0009941eb103010ed7966d6475228c1</header><name>Icloud Real Estate</name><navbar_fixed>true</navbar_fixed><sys_class_name>sp_theme</sys_class_name><sys_created_by>888</sys_created_by><sys_created_on>2022-09-30 01:16:47</sys_created_on><sys_id>57f4c9702f921110b63859a72799b606</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Icloud Real Estate</sys_name><sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package><sys_policy/><sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope><sys_update_name>sp_theme_57f4c9702f921110b63859a72799b606</sys_update_name><sys_updated_by>888</sys_updated_by><sys_updated_on>2022-09-30 01:16:47</sys_updated_on></sp_theme></record_update>]]></payload>
+        <payload_hash>752097282</payload_hash>
+        <record_name>Icloud Real Estate</record_name>
+        <reverted_from/>
+        <source>83236ecc2f1a1110b63859a72799b691</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>888</sys_created_by>
+        <sys_created_on>2022-09-30 01:16:47</sys_created_on>
+        <sys_id>5806c9b02f921110b63859a72799b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1838bf7abbe0000001</sys_recorded_at>
+        <sys_updated_by>888</sys_updated_by>
+        <sys_updated_on>2022-09-30 01:16:47</sys_updated_on>
+        <type>Theme</type>
+        <update_guid>9006c9b044921110c71f568b30dae639</update_guid>
+        <update_guid_history>9006c9b044921110c71f568b30dae639:752097282</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Icloud Real Estate">cafc09782f921110b63859a72799b63a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>888</sys_created_by>
+        <sys_created_on>2022-09-30 01:47:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_theme">sp_theme</sys_db_object>
+        <sys_id>13fc3ad49a2349f296a7eaaae8dca244</sys_id>
+        <sys_metadata>57f4c9702f921110b63859a72799b606</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Icloud Real Estate</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_scope_delete display_value="">96ec03c5910d46109a80415a4bf51840</sys_scope_delete>
+        <sys_update_name>sp_theme_57f4c9702f921110b63859a72799b606</sys_update_name>
+        <sys_update_version display_value="sp_theme_57f4c9702f921110b63859a72799b606">5806c9b02f921110b63859a72799b639</sys_update_version>
+        <sys_updated_by>888</sys_updated_by>
+        <sys_updated_on>2022-09-30 01:47:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

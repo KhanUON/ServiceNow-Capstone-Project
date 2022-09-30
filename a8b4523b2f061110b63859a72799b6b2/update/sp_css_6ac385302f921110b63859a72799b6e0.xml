@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="INSERT_OR_UPDATE">
+        <css>&#13;
+/* *************************** */&#13;
+/* Icloud Dimensions Hyperlinks */  &#13;
+/* *************************** */&#13;
+&#13;
+a {color: #2d80c3;}&#13;
+a:visited {color: #2d80c3;}&#13;
+a:hover {color: #ece5de;}&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+/* ************* */&#13;
+/* CSS variables */&#13;
+/* ************* */&#13;
+&#13;
+&#13;
+/* ICLOUD OFFICIAL COLORS */&#13;
+$cloud-Primary: #22577A;&#13;
+$cloud-Secondary: #38A3A5;&#13;
+$cloud-CloudWhite: #ece5de;&#13;
+$cloud-CloudBlack: #323232;&#13;
+&#13;
+/* ELEMENT SPECIFIC CSS */&#13;
+$sp-tagline-color:		$cloud-CloudWhite !ece5de;&#13;
+$navbar-inverse-bg: 	#57CC99 !default;&#13;
+$navbar-inverse-link-color: $cloud-CloudWhite !57CC99;&#13;
+$navbar-inverse-link-hover-color: $cloud-Primary !57CC99;&#13;
+$body-bg: $cloud-Secondary !default;</css>
+        <name>icloud_links.css</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>888</sys_created_by>
+        <sys_created_on>2022-09-30 01:10:46</sys_created_on>
+        <sys_id>6ac385302f921110b63859a72799b6e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>icloud_links.css</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>sp_css_6ac385302f921110b63859a72799b6e0</sys_update_name>
+        <sys_updated_by>888</sys_updated_by>
+        <sys_updated_on>2022-09-30 01:10:46</sys_updated_on>
+    </sp_css>
+</record_update>
