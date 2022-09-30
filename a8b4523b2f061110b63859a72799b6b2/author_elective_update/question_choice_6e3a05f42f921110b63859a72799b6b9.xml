@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>500</order>
+        <published_ref display_value="Gardening">b621c97c2f521110b63859a72799b617</published_ref>
+        <question display_value="Please select Maintenance">e23a05f42f921110b63859a72799b654</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>1111</sys_created_by>
+        <sys_created_on>2022-09-30 01:35:15</sys_created_on>
+        <sys_id>6e3a05f42f921110b63859a72799b6b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gardening</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>question_choice_6e3a05f42f921110b63859a72799b6b9</sys_update_name>
+        <sys_updated_by>1111</sys_updated_by>
+        <sys_updated_on>2022-09-30 01:35:15</sys_updated_on>
+        <text>Gardening</text>
+        <value>gardening</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=6e3a05f42f921110b63859a72799b6b9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</application>
+        <file_path/>
+        <instance_id>eea0005edb77db4052e3f70fbf961990</instance_id>
+        <instance_name>dev69809</instance_name>
+        <name>question_choice_6e3a05f42f921110b63859a72799b6b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>500</order><published_ref display_value="Gardening">b621c97c2f521110b63859a72799b617</published_ref><question display_value="Please select Maintenance">e23a05f42f921110b63859a72799b654</question><sys_class_name>question_choice</sys_class_name><sys_created_by>1111</sys_created_by><sys_created_on>2022-09-30 01:35:15</sys_created_on><sys_id>6e3a05f42f921110b63859a72799b6b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Gardening</sys_name><sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package><sys_policy/><sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope><sys_update_name>question_choice_6e3a05f42f921110b63859a72799b6b9</sys_update_name><sys_updated_by>1111</sys_updated_by><sys_updated_on>2022-09-30 01:35:15</sys_updated_on><text>Gardening</text><value>gardening</value></question_choice><fx_price action="delete_multiple" query="id=6e3a05f42f921110b63859a72799b6b9"/></record_update>]]></payload>
+        <payload_hash>144357766</payload_hash>
+        <record_name>Gardening</record_name>
+        <reverted_from/>
+        <source>66136a002f5a1110b63859a72799b6f7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>1111</sys_created_by>
+        <sys_created_on>2022-09-30 01:35:15</sys_created_on>
+        <sys_id>263a05f42f921110b63859a72799b6bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1838c0892cb0000001</sys_recorded_at>
+        <sys_updated_by>1111</sys_updated_by>
+        <sys_updated_on>2022-09-30 01:35:15</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>aa3a05f42d92111015870d573efacabb</update_guid>
+        <update_guid_history>aa3a05f42d92111015870d573efacabb:144357766</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Gardening">90ba4df42f921110b63859a72799b688</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-30 01:37:16</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>0f9d1d245c0544fc81835dc332d76dc4</sys_id>
+        <sys_metadata>6e3a05f42f921110b63859a72799b6b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gardening</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_parent display_value="">e23a05f42f921110b63859a72799b654</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_scope_delete display_value="">96ec03c5910d46109a80415a4bf51840</sys_scope_delete>
+        <sys_update_name>question_choice_6e3a05f42f921110b63859a72799b6b9</sys_update_name>
+        <sys_update_version display_value="question_choice_6e3a05f42f921110b63859a72799b6b9">263a05f42f921110b63859a72799b6bc</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-30 01:37:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

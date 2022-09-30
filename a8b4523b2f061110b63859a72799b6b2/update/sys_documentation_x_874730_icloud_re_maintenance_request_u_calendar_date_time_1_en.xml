@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_calendar_date_time_1" label="New Calendar Date/Time" language="en" table="x_874730_icloud_re_maintenance_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_calendar_date_time_1</element>
+            <help/>
+            <hint/>
+            <label>New Calendar Date/Time</label>
+            <language>en</language>
+            <name>x_874730_icloud_re_maintenance_request</name>
+            <plural>New Calendar Date/Times</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>777</sys_created_by>
+            <sys_created_on>2022-09-29 05:13:39</sys_created_on>
+            <sys_id>54a23cac2fde5110b63859a72799b62f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New Calendar Date/Time</sys_name>
+            <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+            <sys_update_name>sys_documentation_x_874730_icloud_re_maintenance_request_u_calendar_date_time_1_en</sys_update_name>
+            <sys_updated_by>777</sys_updated_by>
+            <sys_updated_on>2022-09-29 05:13:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

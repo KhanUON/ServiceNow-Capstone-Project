@@ -3,42 +3,56 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
             <position>0</position>
-            <sys_created_by>1111</sys_created_by>
-            <sys_created_on>2022-09-28 00:07:16</sys_created_on>
-            <sys_id>66e266002f5a1110b63859a72799b63f</sys_id>
+            <sys_created_by>777</sys_created_by>
+            <sys_created_on>2022-09-29 06:48:46</sys_created_on>
+            <sys_id>ed680da42f529110b63859a72799b612</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Description" display_value="Description" name="x_874730_icloud_re_maintenance_request" sys_domain="global" view="5f2a0e7f2fc21110b63859a72799b6c0">5ee266002f5a1110b63859a72799b628</sys_ui_section>
-            <sys_updated_by>1111</sys_updated_by>
-            <sys_updated_on>2022-09-28 00:07:16</sys_updated_on>
+            <sys_updated_by>777</sys_updated_by>
+            <sys_updated_on>2022-09-29 06:48:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
             <position>1</position>
-            <sys_created_by>1111</sys_created_by>
-            <sys_created_on>2022-09-28 00:07:16</sys_created_on>
-            <sys_id>e6e266002f5a1110b63859a72799b63f</sys_id>
+            <sys_created_by>777</sys_created_by>
+            <sys_created_on>2022-09-29 06:48:46</sys_created_on>
+            <sys_id>e1680da42f529110b63859a72799b613</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Description" display_value="Description" name="x_874730_icloud_re_maintenance_request" sys_domain="global" view="5f2a0e7f2fc21110b63859a72799b6c0">5ee266002f5a1110b63859a72799b628</sys_ui_section>
-            <sys_updated_by>1111</sys_updated_by>
-            <sys_updated_on>2022-09-28 00:07:16</sys_updated_on>
+            <sys_updated_by>777</sys_updated_by>
+            <sys_updated_on>2022-09-29 06:48:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
+            <element>trade_name</element>
             <position>2</position>
-            <sys_created_by>1111</sys_created_by>
-            <sys_created_on>2022-09-28 00:07:16</sys_created_on>
-            <sys_id>6ae266002f5a1110b63859a72799b63f</sys_id>
+            <sys_created_by>777</sys_created_by>
+            <sys_created_on>2022-09-29 06:48:46</sys_created_on>
+            <sys_id>e5680da42f529110b63859a72799b613</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Description" display_value="Description" name="x_874730_icloud_re_maintenance_request" sys_domain="global" view="5f2a0e7f2fc21110b63859a72799b6c0">5ee266002f5a1110b63859a72799b628</sys_ui_section>
-            <sys_updated_by>1111</sys_updated_by>
-            <sys_updated_on>2022-09-28 00:07:16</sys_updated_on>
+            <sys_updated_by>777</sys_updated_by>
+            <sys_updated_on>2022-09-29 06:48:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_stat</element>
+            <position>3</position>
+            <sys_created_by>777</sys_created_by>
+            <sys_created_on>2022-09-29 06:48:46</sys_created_on>
+            <sys_id>e9680da42f529110b63859a72799b613</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description" display_value="Description" name="x_874730_icloud_re_maintenance_request" sys_domain="global" view="5f2a0e7f2fc21110b63859a72799b6c0">5ee266002f5a1110b63859a72799b628</sys_ui_section>
+            <sys_updated_by>777</sys_updated_by>
+            <sys_updated_on>2022-09-29 06:48:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

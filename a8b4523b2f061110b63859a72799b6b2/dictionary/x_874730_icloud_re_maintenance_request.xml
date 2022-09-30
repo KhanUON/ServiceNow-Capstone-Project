@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Maintenance Request" max_length="40" name="x_874730_icloud_re_maintenance_request" sizeclass="0" type="collection">
+    <element audit="true" extends="task" label="Maintenance Request" max_length="40" name="x_874730_icloud_re_maintenance_request" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Home Address" mandatory="true" max_length="40" name="home_addr" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="not yet requested" label="Landlord Approval" max_length="40" name="landlord_apprv" read_only="true" type="string">
             <choice>
@@ -9,14 +9,50 @@
                 <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Maintenance Type" mandatory="true" max_length="40" name="main_type" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="contact_type" dependent_on_field="contact_type" label="Maintenance Type" mandatory="true" max_length="40" name="main_type" type="string" use_dependent_field="true">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="a gas leak" sequence="0" value="a gas leak"/>
+                <element inactive_on_update="false" label="Check smoke alarms" sequence="0" value="check smoke alarms"/>
+                <element inactive="true" inactive_on_update="true" label="opt 1" sequence="0" value="opt 1"/>
+                <element inactive="true" inactive_on_update="true" label="an electrical fault" sequence="1" value="an electrical fault"/>
+                <element inactive_on_update="false" label="Check water heater" sequence="1" value="check water heater"/>
+                <element inactive="true" inactive_on_update="true" label="opt 2" sequence="1" value="opt 2"/>
+                <element inactive="true" inactive_on_update="true" label="a blocked or broken toilet" sequence="2" value="a blocked or broken toilet"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Clean drains" sequence="2" value="clean drains"/>
+                <element inactive_on_update="false" label="Clean gutters" sequence="3" value="clean gutters"/>
+                <element inactive="true" inactive_on_update="true" label="flood damage" sequence="3" value="flood damage"/>
+                <element inactive="true" inactive_on_update="true" label="a failure of the hot water service" sequence="4" value="a failure of the hot water service"/>
+                <element inactive_on_update="false" label="Electrical repairs" sequence="4" value="electrical repairs"/>
+                <element inactive_on_update="false" label="Gardening" sequence="5" value="gardening"/>
+                <element inactive="true" inactive_on_update="true" label="Indoor cleaning" sequence="6" value="indoor cleaning"/>
+                <element inactive_on_update="false" label="Indoor house cleaning" sequence="6" value="indoor house cleaning"/>
+                <element inactive_on_update="false" label="Landscaping" sequence="7" value="landscaping"/>
+                <element inactive_on_update="false" label="Painting" sequence="8" value="painting"/>
+                <element inactive_on_update="false" label="Plumbing" sequence="9" value="plumbing"/>
+                <element inactive_on_update="false" label="Pool maintenance" sequence="10" value="pool maintenance"/>
+                <element inactive_on_update="false" label="Roof repairs" sequence="11" value="roof repairs"/>
+                <element inactive_on_update="false" label="Rubbish removal" sequence="12" value="rubbish removal"/>
+                <element inactive="true" inactive_on_update="true" label="Sealing cracks &amp; gaps" sequence="13" value="sealing cracks &amp; gaps"/>
+                <element inactive_on_update="false" label="Sealing cracks and gaps" sequence="13" value="sealing cracks and gaps"/>
+                <element inactive="true" inactive_on_update="true" label="Other" sequence="14" value="other"/>
+                <element inactive_on_update="false" label="Tree felling" sequence="14" value="tree felling"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Property Address" mandatory="true" max_length="32" name="property_addr" reference="x_874730_icloud_re_property_location" type="reference"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Quote" max_length="20" name="quote" read_only="true" type="price"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested start date" mandatory="true" max_length="40" name="req_start" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" mandatory="true" max_length="40" name="short_desc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_reference_1" dependent_on_field="u_reference_1" label="Tenant's Name" mandatory="true" max_length="40" name="tenant_name" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Tradesmen's Name" max_length="40" name="trade_name" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New Calendar Date/Time" max_length="40" name="u_calendar_date_time_1" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="contact_type" dependent_on_field="contact_type" label="New Choice" max_length="40" name="u_choice_2" type="string" use_dependent_field="true">
             <choice/>
         </element>
-        <element attributes="encode_utf8=false" label="Property Address" mandatory="true" max_length="32" name="property_addr" reference="x_874730_icloud_re_property_for_rent" type="reference"/>
-        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Quote" max_length="20" name="quote" read_only="true" type="price"/>
-        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="40" name="short_desc" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Tenant's Name" mandatory="true" max_length="40" name="tenant_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Tradesmen's Name" max_length="40" name="trade_name" read_only="true" type="string"/>
+        <element label="New Due Date" max_length="40" name="u_due_date_4" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" label="New Date/Time" max_length="40" name="u_glide_date_time_3" type="glide_date_time"/>
+        <element label="New Duration" max_length="40" name="u_glide_duration_2" type="glide_duration"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_3" type="glide_list"/>
         <element label="Quote" max_length="40" name="u_integer_1" type="integer"/>
         <element attributes="encode_utf8=false" label="Tenant Name" max_length="32" name="u_reference_1" reference="x_874730_icloud_re_property_for_rent" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Work Status" max_length="4000" name="work_stat" read_only="true" type="journal"/>
