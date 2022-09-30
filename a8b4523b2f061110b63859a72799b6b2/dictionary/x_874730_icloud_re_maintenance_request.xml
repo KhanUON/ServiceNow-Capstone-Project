@@ -17,6 +17,7 @@
         <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="40" name="short_desc" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Tenant's Name" mandatory="true" max_length="40" name="tenant_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Tradesmen's Name" max_length="40" name="trade_name" read_only="true" type="string"/>
+        <element label="Quote" max_length="40" name="u_integer_1" type="integer"/>
         <element attributes="encode_utf8=false" label="Tenant Name" max_length="32" name="u_reference_1" reference="x_874730_icloud_re_property_for_rent" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Work Status" max_length="4000" name="work_stat" read_only="true" type="journal"/>
     </element>
