@@ -39,7 +39,6 @@
                 <element inactive_on_update="false" label="Tree felling" sequence="14" value="tree felling"/>
             </choice>
         </element>
-        <element attributes="encode_utf8=false" label="Property Address" mandatory="true" max_length="32" name="property_addr" reference="x_874730_icloud_re_property_location" type="reference"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Quote" max_length="20" name="quote" read_only="true" type="price"/>
         <element attributes="edge_encryption_enabled=true" label="Requested start date" mandatory="true" max_length="40" name="req_start" type="calendar_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Short Description" mandatory="true" max_length="40" name="short_desc" type="string"/>
