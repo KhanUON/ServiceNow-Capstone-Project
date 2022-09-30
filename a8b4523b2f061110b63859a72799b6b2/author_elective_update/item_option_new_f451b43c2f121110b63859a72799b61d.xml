@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="DELETE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Maintenance">6051703c2f121110b63859a72799b6a7</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field>description</field>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <hidden>false</hidden>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <macroponent/>
+        <mandatory>true</mandatory>
+        <map_to_field>true</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>description</name>
+        <order>500</order>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <published_ref display_value="Describe the issue ">ccb9ec342f121110b63859a72799b61a</published_ref>
+        <question_text>Describe the issue </question_text>
+        <read_only>false</read_only>
+        <read_roles/>
+        <read_script/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table>x_874730_icloud_re_maintenance_request</record_producer_table>
+        <reference/>
+        <reference_qual>undefined</reference_qual>
+        <reference_qual_condition>undefined</reference_qual_condition>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <save_script/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>1111</sys_created_by>
+        <sys_created_on>2022-09-29 23:46:26</sys_created_on>
+        <sys_id>f451b43c2f121110b63859a72799b61d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Describe the issue </sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>item_option_new_f451b43c2f121110b63859a72799b61d</sys_update_name>
+        <sys_updated_by>1111</sys_updated_by>
+        <sys_updated_on>2022-09-30 00:10:30</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>2</type>
+        <ui_page/>
+        <unique>false</unique>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="DELETE" query="documentkey=f451b43c2f121110b63859a72799b61d"/>
+    <fx_price action="DELETE" query="id=f451b43c2f121110b63859a72799b61d"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>f451b43c2f121110b63859a72799b61d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>1111</sys_created_by>
+        <sys_created_on>2022-09-29 23:46:26</sys_created_on>
+        <sys_id>3451b43c2f121110b63859a72799b620</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>1111</sys_updated_by>
+        <sys_updated_on>2022-09-29 23:46:26</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>f451b43c2f121110b63859a72799b61d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>1111</sys_created_by>
+        <sys_created_on>2022-09-29 23:46:26</sys_created_on>
+        <sys_id>f451b43c2f121110b63859a72799b61f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>1111</sys_updated_by>
+        <sys_updated_on>2022-09-29 23:46:26</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</application>
+        <file_path/>
+        <instance_id>eea0005edb77db4052e3f70fbf961990</instance_id>
+        <instance_name>dev69809</instance_name>
+        <name>item_option_new_f451b43c2f121110b63859a72799b61d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Maintenance">6051703c2f121110b63859a72799b6a7</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><enable_also_request_for>false</enable_also_request_for><example_text/><field>description</field><global>false</global><help_tag>More information</help_tag><help_text/><hidden>false</hidden><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><macroponent/><mandatory>true</mandatory><map_to_field>true</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>description</name><order>500</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><published_ref display_value="Describe the issue ">ccb9ec342f121110b63859a72799b61a</published_ref><question_text>Describe the issue </question_text><read_only>false</read_only><read_roles/><read_script/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>x_874730_icloud_re_maintenance_request</record_producer_table><reference/><reference_qual>undefined</reference_qual><reference_qual_condition>undefined</reference_qual_condition><rich_text/><roles_to_use_also_request_for/><save_script/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>1111</sys_created_by><sys_created_on>2022-09-29 23:46:26</sys_created_on><sys_id>f451b43c2f121110b63859a72799b61d</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Describe the issue </sys_name><sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package><sys_policy/><sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope><sys_update_name>item_option_new_f451b43c2f121110b63859a72799b61d</sys_update_name><sys_updated_by>1111</sys_updated_by><sys_updated_on>2022-09-30 00:10:30</sys_updated_on><table/><tooltip/><type>2</type><ui_page/><unique>false</unique><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=f451b43c2f121110b63859a72799b61d"/><fx_price action="delete_multiple" query="id=f451b43c2f121110b63859a72799b61d"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>f451b43c2f121110b63859a72799b61d</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>1111</sys_created_by><sys_created_on>2022-09-29 23:46:26</sys_created_on><sys_id>3451b43c2f121110b63859a72799b620</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>1111</sys_updated_by><sys_updated_on>2022-09-29 23:46:26</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>f451b43c2f121110b63859a72799b61d</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>1111</sys_created_by><sys_created_on>2022-09-29 23:46:26</sys_created_on><sys_id>f451b43c2f121110b63859a72799b61f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>1111</sys_updated_by><sys_updated_on>2022-09-29 23:46:26</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-467307226</payload_hash>
+        <record_name>Describe the issue </record_name>
+        <reverted_from/>
+        <source>66136a002f5a1110b63859a72799b6f7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>1111</sys_created_by>
+        <sys_created_on>2022-09-30 00:10:30</sys_created_on>
+        <sys_id>51d6f0b02f521110b63859a72799b672</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1838bbafbed0000001</sys_recorded_at>
+        <sys_updated_by>1111</sys_updated_by>
+        <sys_updated_on>2022-09-30 00:10:30</sys_updated_on>
+        <type>Variable</type>
+        <update_guid>95d6f0b053521110d95b5d8069a5ed71</update_guid>
+        <update_guid_history>95d6f0b053521110d95b5d8069a5ed71:-467307226,2045b030e652111032ccdbcec432870b:-1110833243,e67474fca1121110f8f3241ea7691e44:-1754359260,f451b43ce5121110a478c32956c54723:1897082019</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Describe the issue ">4a57bcb02f521110b63859a72799b660</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-30 00:12:45</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new">item_option_new</sys_db_object>
+        <sys_id>6dbea590d3704b2ebcc3429a86cb2da9</sys_id>
+        <sys_metadata>f451b43c2f121110b63859a72799b61d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Describe the issue </sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_parent display_value="">6051703c2f121110b63859a72799b6a7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_scope_delete display_value="">96ec03c5910d46109a80415a4bf51840</sys_scope_delete>
+        <sys_update_name>item_option_new_f451b43c2f121110b63859a72799b61d</sys_update_name>
+        <sys_update_version display_value="item_option_new_f451b43c2f121110b63859a72799b61d">51d6f0b02f521110b63859a72799b672</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-30 00:12:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
