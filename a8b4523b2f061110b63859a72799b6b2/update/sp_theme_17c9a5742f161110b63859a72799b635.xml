@@ -3,6 +3,8 @@
         <css_variables>/* *************************** */&#13;
 /* Icloud Dimensions Hyperlinks */  &#13;
 /* *************************** */&#13;
+/* Cloud Dimensions Hyperlinks */  &#13;
+/* *************************** */&#13;
 &#13;
 a {color: #2d80c3;}&#13;
 a:visited {color: #2d80c3;}&#13;
@@ -17,17 +19,17 @@ a:hover {color: #ece5de;}&#13;
 /* ************* */&#13;
 &#13;
 &#13;
-/* ICLOUD OFFICIAL COLORS */&#13;
-$cloud-Primary: #22577A;&#13;
-$cloud-Secondary: #80ED99;&#13;
+/* CLOUD DIMENSIONS OFFICIAL COLORS */&#13;
+$cloud-Primary: #2d80c3;&#13;
+$cloud-Secondary: #ebf2f4;&#13;
 $cloud-CloudWhite: #ece5de;&#13;
 $cloud-CloudBlack: #323232;&#13;
 &#13;
 /* ELEMENT SPECIFIC CSS */&#13;
-$sp-tagline-color:		$cloud-CloudWhite !ece5de;&#13;
-$navbar-inverse-bg: 	#57CC99 !default;&#13;
-$navbar-inverse-link-color: $cloud-CloudWhite !57CC99;&#13;
-$navbar-inverse-link-hover-color: $cloud-Primary !57CC99;&#13;
+$sp-tagline-color:		$cloud-CloudWhite !default;&#13;
+$navbar-inverse-bg: 	#000000 !default;&#13;
+$navbar-inverse-link-color: $cloud-CloudWhite !default;&#13;
+$navbar-inverse-link-hover-color: $cloud-Primary !default;&#13;
 $body-bg: $cloud-Secondary !default;</css_variables>
         <footer/>
         <footer_fixed>true</footer_fixed>
@@ -38,13 +40,13 @@ $body-bg: $cloud-Secondary !default;</css_variables>
         <sys_created_by>888</sys_created_by>
         <sys_created_on>2022-09-30 04:07:21</sys_created_on>
         <sys_id>17c9a5742f161110b63859a72799b635</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Icloud Theme</sys_name>
         <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
         <sys_update_name>sp_theme_17c9a5742f161110b63859a72799b635</sys_update_name>
         <sys_updated_by>888</sys_updated_by>
-        <sys_updated_on>2022-09-30 04:57:09</sys_updated_on>
+        <sys_updated_on>2022-10-02 22:16:50</sys_updated_on>
     </sp_theme>
 </record_update>
