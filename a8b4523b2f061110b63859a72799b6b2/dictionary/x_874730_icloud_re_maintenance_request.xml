@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" extends="task" label="Maintenance Request" max_length="40" name="x_874730_icloud_re_maintenance_request" sizeclass="4" type="collection">
-        <element label="Address" max_length="200" name="address" reference="x_874730_icloud_re_icloud_property" type="string" use_dependent_field="true"/>
-        <element attributes="edge_encryption_enabled=true" choice="2" dependent="Address" dependent_on_field="Address" display="true" label="Address" mandatory="true" max_length="40" name="chooseaddress" reference="x_874730_icloud_re_icloud_property" reference_qual="addressISNOTEMPTY^EQ" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
+        <element attributes="edge_encryption_enabled=true" choice="1" display="true" label="Address" max_length="500" name="chooseaddress" read_only="true" reference="x_874730_icloud_re_icloud_property" type="reference">
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" default="not yet requested" label="Landlord Approval" max_length="40" name="landlord_apprv" read_only="true" type="string">
@@ -45,7 +44,6 @@
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Quote" max_length="20" name="quote" read_only="true" type="price"/>
         <element attributes="edge_encryption_enabled=true" label="Requested start date" mandatory="true" max_length="40" name="req_start" type="calendar_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Short Description" mandatory="true" max_length="40" name="short_desc" type="string"/>
-        <element attributes="edge_encryption_enabled=true" dependent="u_reference_1" dependent_on_field="u_reference_1" label="Tenant's Name" mandatory="true" max_length="40" name="tenant_name" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" label="Tradesmen's Name" max_length="40" name="trade_name" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="New Calendar Date/Time" max_length="40" name="u_calendar_date_time_1" type="calendar_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" dependent="contact_type" dependent_on_field="contact_type" label="New Choice" max_length="40" name="u_choice_2" type="string" use_dependent_field="true">
@@ -56,7 +54,9 @@
         <element label="New Duration" max_length="40" name="u_glide_duration_2" type="glide_duration"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_3" type="glide_list"/>
         <element label="Quote" max_length="40" name="u_integer_1" type="integer"/>
-        <element attributes="encode_utf8=false" label="Tenant Name" max_length="32" name="u_reference_1" reference="x_874730_icloud_re_property_for_rent" type="reference"/>
+        <element attributes="encode_utf8=false" choice="1" label="Tenant's Name" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference">
+            <choice/>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Work Status" max_length="4000" name="work_stat" read_only="true" type="journal"/>
     </element>
 </database>

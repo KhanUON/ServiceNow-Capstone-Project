@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="General Enquiry" max_length="40" name="x_874730_icloud_re_general_enquiry" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Full Name" mandatory="true" max_length="40" name="full_name" type="string"/>
+        <element label="Mobile" max_length="40" name="mobile" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Please provide more information about the enquiry" max_length="4000" name="more_info" type="string"/>
+        <element attributes="encode_utf8=false" label="Property Address" max_length="32" name="property_address" reference="x_874730_icloud_re_icloud_property" type="reference"/>
+    </element>
+</database>

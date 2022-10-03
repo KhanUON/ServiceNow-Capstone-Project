@@ -3,7 +3,7 @@
         <element display="true" label="Address" mandatory="true" max_length="100" name="address" type="string"/>
         <element label="Property Manager" max_length="40" name="property_manager" reference="sys_user" reference_qual="roles=x_874730_icloud_re.icloud_admin^EQ" reference_qual_condition="roles=x_874730_icloud_re.icloud_admin^EQ" type="reference"/>
         <element label="rented" max_length="40" name="rented" type="boolean"/>
-        <element attributes="encode_utf8=false" label="Tenant Name" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Tenant's Name" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="address"/>
         </index>
