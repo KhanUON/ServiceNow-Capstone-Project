@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_reference_1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Auto Populate Location</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+if (isLoading || newValue == '') {
+return;
+}
+var loc = g_form.getReference('user_name', populateLocDetails);
+
+function populateLocDetails(loc) {
+g_form.setValue('Address', loc.Address);
+}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>1111</sys_created_by>
+        <sys_created_on>2022-09-28 02:46:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f352838c2f9a1110b63859a72799b629</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Auto Populate Location</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>sys_script_client_f352838c2f9a1110b63859a72799b629</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-03 01:02:25</sys_updated_on>
+        <table>x_874730_icloud_re_key_collection</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</application>
+        <file_path/>
+        <instance_id>eea0005edb77db4052e3f70fbf961990</instance_id>
+        <instance_name>dev69809</instance_name>
+        <name>sys_script_client_f352838c2f9a1110b63859a72799b629</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_reference_1&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Auto Populate Location&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+if (isLoading || newValue == '') {
+return;
+}
+var loc = g_form.getReference('user_name', populateLocDetails);
+
+function populateLocDetails(loc) {
+g_form.setValue('Address', loc.Address);
+}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;1111&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-28 02:46:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f352838c2f9a1110b63859a72799b629&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Auto Populate Location&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re"&gt;a8b4523b2f061110b63859a72799b6b2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Icloud Real Estate"&gt;a8b4523b2f061110b63859a72799b6b2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_f352838c2f9a1110b63859a72799b629&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-03 01:02:25&lt;/sys_updated_on&gt;&lt;table&gt;x_874730_icloud_re_key_collection&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>887110785</payload_hash>
+        <record_name>Auto Populate Location</record_name>
+        <reverted_from/>
+        <source>9492ad782fd21110b63859a72799b6f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-03 01:02:25</sys_created_on>
+        <sys_id>037f98b12fd21110b63859a72799b615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1839b5d966b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-03 01:02:25</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>0b7f98b1d4d21110864a0011446a8814</update_guid>
+        <update_guid_history>0b7f98b1d4d21110864a0011446a8814:887110785,d04fd8715dd21110a764a114401183e2:-2061496994,f43f9788f91e111009fdd1b27e340642:1809089354,02fd9f484e1e11106e00d570da92742a:612474903,c577c74063da1110c561bebd16c7fe95:-2105260626</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-03 01:03:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0caa93f4d0e24904849b47383115db10</sys_id>
+        <sys_metadata>f352838c2f9a1110b63859a72799b629</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto Populate Location</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_parent display_value="Key Collection">04c6debb2f061110b63859a72799b675</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_scope_delete display_value="">96ec03c5910d46109a80415a4bf51840</sys_scope_delete>
+        <sys_update_name>sys_script_client_f352838c2f9a1110b63859a72799b629</sys_update_name>
+        <sys_update_version display_value="sys_script_client_f352838c2f9a1110b63859a72799b629">037f98b12fd21110b63859a72799b615</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-03 01:03:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
