@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Maintenance Request" max_length="40" name="x_874730_icloud_re_maintenance_request" sizeclass="0" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Home Address" mandatory="true" max_length="40" name="home_addr" type="string"/>
+    <element audit="true" extends="task" label="Maintenance Request" max_length="40" name="x_874730_icloud_re_maintenance_request" sizeclass="4" type="collection">
+        <element label="Address" max_length="200" name="address" reference="x_874730_icloud_re_icloud_property" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="2" dependent="Address" dependent_on_field="Address" display="true" label="Address" mandatory="true" max_length="40" name="chooseaddress" reference="x_874730_icloud_re_icloud_property" reference_qual="addressISNOTEMPTY^EQ" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" default="not yet requested" label="Landlord Approval" max_length="40" name="landlord_apprv" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Not Yet Requested" sequence="0" value="not yet requested"/>
