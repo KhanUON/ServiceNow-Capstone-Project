@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
-        <active>true</active>
+        <active>false</active>
         <allow_edit>false</allow_edit>
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category/>
-        <checked_out>true</checked_out>
+        <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
@@ -53,9 +53,9 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></post_insert_script>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=52e6f3822fde1110b63859a72799b668&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=52906a522f5a5110b63859a72799b6ad&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
-        <published_ref/>
+        <published_ref display_value="Key Collection">52e6f3822fde1110b63859a72799b668</published_ref>
         <recurring_frequency/>
         <redirect_url>generated_record</redirect_url>
         <request_method/>
@@ -82,19 +82,19 @@
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>1111</sys_created_by>
-        <sys_created_on>2022-10-04 11:23:25</sys_created_on>
-        <sys_id>52e6f3822fde1110b63859a72799b668</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2022-10-04 23:43:29</sys_created_on>
+        <sys_id>52906a522f5a5110b63859a72799b6ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Key Collection</sys_name>
         <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
-        <sys_update_name>sc_cat_item_producer_52e6f3822fde1110b63859a72799b668</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-10-04 23:42:30</sys_updated_on>
+        <sys_update_name>sc_cat_item_producer_52906a522f5a5110b63859a72799b6ad</sys_update_name>
+        <sys_updated_by>1111</sys_updated_by>
+        <sys_updated_on>2022-10-04 23:43:29</sys_updated_on>
         <table_name>x_874730_icloud_re_key_collection</table_name>
         <taxonomy_topic/>
         <template/>
@@ -108,22 +108,22 @@
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item_producer>
-    <sys_translated_text action="delete_multiple" query="documentkey=52e6f3822fde1110b63859a72799b668"/>
-    <fx_price action="delete_multiple" query="id=52e6f3822fde1110b63859a72799b668"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=52906a522f5a5110b63859a72799b6ad"/>
+    <fx_price action="delete_multiple" query="id=52906a522f5a5110b63859a72799b6ad"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price</field>
-        <id>52e6f3822fde1110b63859a72799b668</id>
+        <id>52906a522f5a5110b63859a72799b6ad</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>1111</sys_created_by>
-        <sys_created_on>2022-10-04 11:23:25</sys_created_on>
-        <sys_id>a537ff422fde1110b63859a72799b6d7</sys_id>
+        <sys_created_on>2022-10-04 23:43:29</sys_created_on>
+        <sys_id>1a906a522f5a5110b63859a72799b6ae</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>1111</sys_updated_by>
-        <sys_updated_on>2022-10-04 11:23:25</sys_updated_on>
+        <sys_updated_on>2022-10-04 23:43:29</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
