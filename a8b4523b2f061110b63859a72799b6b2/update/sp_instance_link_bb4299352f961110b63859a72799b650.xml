@@ -2,7 +2,7 @@
     <sp_instance_link action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
-        <color>default</color>
+        <color>info</color>
         <css/>
         <glyph>star</glyph>
         <id/>
@@ -13,32 +13,32 @@
         <roles/>
         <sc_cat_item/>
         <sc_category/>
-        <short_description/>
+        <short_description>Please submit your enquiry here</short_description>
         <size>md</size>
-        <sp_column display_value="2">f2dbd4282f9e5110b63859a72799b66a</sp_column>
+        <sp_column display_value="2">323cc8312f921110b63859a72799b634</sp_column>
         <sp_page/>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
-        <sys_created_by>1111</sys_created_by>
-        <sys_created_on>2022-09-29 23:21:35</sys_created_on>
-        <sys_id>a0abe8b42f121110b63859a72799b64c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Raise a Maintenance request</sys_name>
+        <sys_created_by>888</sys_created_by>
+        <sys_created_on>2022-10-03 04:44:29</sys_created_on>
+        <sys_id>bb4299352f961110b63859a72799b650</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>General Enquiry</sys_name>
         <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
-        <sys_update_name>sp_instance_link_a0abe8b42f121110b63859a72799b64c</sys_update_name>
-        <sys_updated_by>1111</sys_updated_by>
-        <sys_updated_on>2022-09-29 23:57:01</sys_updated_on>
-        <title>Raise a Maintenance request</title>
+        <sys_update_name>sp_instance_link_bb4299352f961110b63859a72799b650</sys_update_name>
+        <sys_updated_by>888</sys_updated_by>
+        <sys_updated_on>2022-10-03 04:45:54</sys_updated_on>
+        <title>General Enquiry</title>
         <type>url</type>
-        <url>com.glideapp.servicecatalog_cat_item_view.do?sysparm_id=eda7e8b02f121110b63859a72799b612</url>
+        <url>com.glideapp.servicecatalog_cat_item_view.do?sysparm_id=f4d78df92f561110b63859a72799b639</url>
         <widget_parameters><![CDATA[{
 	"link_template": {
-		"value": "Top Icon",
-		"displayValue": "Top Icon"
+		"value": "Color Box",
+		"displayValue": "Color Box"
 	}
 }]]></widget_parameters>
     </sp_instance_link>
-    <sys_translated_text action="delete_multiple" query="documentkey=a0abe8b42f121110b63859a72799b64c"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=bb4299352f961110b63859a72799b650"/>
 </record_update>

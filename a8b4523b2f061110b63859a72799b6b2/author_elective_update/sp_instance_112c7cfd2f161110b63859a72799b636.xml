@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">49db14a42f9e5110b63859a72799b609</sp_column>
+        <sp_widget display_value="Icloud Real Estate Footer">d7a761b02f161110b63859a72799b6ef</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>888</sys_created_by>
+        <sys_created_on>2022-10-03 03:07:38</sys_created_on>
+        <sys_id>112c7cfd2f161110b63859a72799b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>sp_instance_112c7cfd2f161110b63859a72799b636</sys_update_name>
+        <sys_updated_by>888</sys_updated_by>
+        <sys_updated_on>2022-10-03 03:07:38</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=112c7cfd2f161110b63859a72799b636"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</application>
+        <file_path/>
+        <instance_id>eea0005edb77db4052e3f70fbf961990</instance_id>
+        <instance_name>dev69809</instance_name>
+        <name>sp_instance_112c7cfd2f161110b63859a72799b636</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="2">49db14a42f9e5110b63859a72799b609</sp_column><sp_widget display_value="Icloud Real Estate Footer">d7a761b02f161110b63859a72799b6ef</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>888</sys_created_by><sys_created_on>2022-10-03 03:07:38</sys_created_on><sys_id>112c7cfd2f161110b63859a72799b636</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package><sys_policy/><sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope><sys_update_name>sp_instance_112c7cfd2f161110b63859a72799b636</sys_update_name><sys_updated_by>888</sys_updated_by><sys_updated_on>2022-10-03 03:07:38</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=112c7cfd2f161110b63859a72799b636"/></record_update>]]></payload>
+        <payload_hash>-1280288527</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>83236ecc2f1a1110b63859a72799b691</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>888</sys_created_by>
+        <sys_created_on>2022-10-03 03:07:38</sys_created_on>
+        <sys_id>dd2c7cfd2f161110b63859a72799b637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1839bd03bee0000001</sys_recorded_at>
+        <sys_updated_by>888</sys_updated_by>
+        <sys_updated_on>2022-10-03 03:07:38</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>192c7cfd071611107bdcdb58894bf037</update_guid>
+        <update_guid_history>192c7cfd071611107bdcdb58894bf037:-1280288527</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d03cb8fd2f161110b63859a72799b655</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>888</sys_created_by>
+        <sys_created_on>2022-10-03 03:07:51</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>360491f477d44e67bffaaa3f776e80c9</sys_id>
+        <sys_metadata>112c7cfd2f161110b63859a72799b636</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_scope_delete display_value="">96ec03c5910d46109a80415a4bf51840</sys_scope_delete>
+        <sys_update_name>sp_instance_112c7cfd2f161110b63859a72799b636</sys_update_name>
+        <sys_update_version display_value="sp_instance_112c7cfd2f161110b63859a72799b636">dd2c7cfd2f161110b63859a72799b637</sys_update_version>
+        <sys_updated_by>888</sys_updated_by>
+        <sys_updated_on>2022-10-03 03:07:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
