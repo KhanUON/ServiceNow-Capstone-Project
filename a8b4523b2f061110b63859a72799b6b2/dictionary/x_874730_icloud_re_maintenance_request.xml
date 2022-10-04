@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Maintenance Request" max_length="40" name="x_874730_icloud_re_maintenance_request" sizeclass="4" type="collection">
+    <element audit="true" extends="task" label="Maintenance Request" max_length="40" name="x_874730_icloud_re_maintenance_request" sizeclass="16" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" display="true" label="Address" max_length="500" name="chooseaddress" read_only="true" reference="x_874730_icloud_re_icloud_property" type="reference">
             <choice/>
         </element>

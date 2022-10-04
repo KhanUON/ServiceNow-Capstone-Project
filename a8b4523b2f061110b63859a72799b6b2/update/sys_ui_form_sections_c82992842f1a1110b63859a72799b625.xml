@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_874730_icloud_re_maintenance_request" name="x_874730_icloud_re_maintenance_request" sys_domain="global" view="Default view">c82992842f1a1110b63859a72799b625</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_874730_icloud_re_maintenance_request" sys_domain="global" view="Default view">d83d5e332f461110b63859a72799b649</sys_ui_section>
+            <sys_ui_section caption="Maintenance Request" display_value="Maintenance Request" name="x_874730_icloud_re_maintenance_request" sys_domain="global" view="Default view">d83d5e332f461110b63859a72799b649</sys_ui_section>
             <sys_updated_by>777</sys_updated_by>
             <sys_updated_on>2022-09-27 23:24:31</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_874730_icloud_re_maintenance_request" name="x_874730_icloud_re_maintenance_request" sys_domain="global" view="Default view">c82992842f1a1110b63859a72799b625</sys_ui_form>
-            <sys_ui_section caption="Maintenance Description" display_value="Maintenance Description" name="x_874730_icloud_re_maintenance_request" sys_domain="global" view="Default view">0cdbde082f1a1110b63859a72799b655</sys_ui_section>
+            <sys_ui_section caption="Service Description" display_value="Service Description" name="x_874730_icloud_re_maintenance_request" sys_domain="global" view="Default view">0cdbde082f1a1110b63859a72799b655</sys_ui_section>
             <sys_updated_by>777</sys_updated_by>
             <sys_updated_on>2022-09-27 23:36:15</sys_updated_on>
         </sys_ui_form_section>

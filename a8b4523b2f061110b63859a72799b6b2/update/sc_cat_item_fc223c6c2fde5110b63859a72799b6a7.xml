@@ -5,7 +5,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <category display_value="Maintenance Category">d6ce2c682fde5110b63859a72799b687</category>
-        <checked_out/>
+        <checked_out>true</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
@@ -59,7 +59,7 @@
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
-        <state/>
+        <state>published</state>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>888</sys_created_by>
         <sys_created_on>2022-09-29 05:11:30</sys_created_on>

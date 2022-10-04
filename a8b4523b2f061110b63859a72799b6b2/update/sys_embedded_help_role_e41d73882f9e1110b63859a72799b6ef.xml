@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_874730_icloud_re.test_user" name="x_874730_icloud_re.test_user">201d73882f9e1110b63859a72799b6ee</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>1234</sys_created_by>
+        <sys_created_on>2022-09-28 06:41:11</sys_created_on>
+        <sys_id>e41d73882f9e1110b63859a72799b6ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>201d73882f9e1110b63859a72799b6ee</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>sys_embedded_help_role_e41d73882f9e1110b63859a72799b6ef</sys_update_name>
+        <sys_updated_by>1234</sys_updated_by>
+        <sys_updated_on>2022-09-28 06:41:11</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Property" max_length="40" name="x_874730_icloud_re_icloud_property" sizeclass="2" type="collection">
+    <element label="Property" max_length="40" name="x_874730_icloud_re_icloud_property" sizeclass="14" type="collection">
         <element display="true" label="Address" mandatory="true" max_length="100" name="address" type="string"/>
         <element label="Property Manager" max_length="40" name="property_manager" reference="sys_user" reference_qual="roles=x_874730_icloud_re.icloud_admin^EQ" reference_qual_condition="roles=x_874730_icloud_re.icloud_admin^EQ" type="reference"/>
         <element label="rented" max_length="40" name="rented" type="boolean"/>

@@ -15,7 +15,7 @@
         <sys_update_name>sys_index_x_874730_icloud_re_icloud_property_address</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2022-09-28 06:25:11</sys_updated_on>
-        <table display_value="icloud_property" name="x_874730_icloud_re_icloud_property">1b407b0c2f5e1110b63859a72799b656</table>
+        <table display_value="Property" name="x_874730_icloud_re_icloud_property">1b407b0c2f5e1110b63859a72799b656</table>
         <unique_index>false</unique_index>
     </sys_index>
 </record_update>

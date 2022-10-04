@@ -18,6 +18,8 @@
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Property Manager Name" max_length="40" name="propertymanagername" reference="sys_user" reference_qual="roles=x_874730_icloud_re.icloud_admin^EQ" reference_qual_condition="roles=x_874730_icloud_re.icloud_admin^EQ" type="reference"/>
-        <element attributes="encode_utf8=false" label="Tenant  Name" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Tenant  Name" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference">
+            <choice/>
+        </element>
     </element>
 </database>

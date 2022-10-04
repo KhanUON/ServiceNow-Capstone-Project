@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="sys_db_object" version="2" view="Self_Service">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Table - Self_service" name="sys_db_object" related_list="NULL" sys_domain="global" view="5f2a0e7f2fc21110b63859a72799b6c0">f6b67a802f9a1110b63859a72799b62f</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:27900e83c3713000bac1addbdfba8fb6</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>777</sys_created_by>
+            <sys_created_on>2022-09-28 01:33:52</sys_created_on>
+            <sys_id>3eb636c02f9a1110b63859a72799b605</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>777</sys_updated_by>
+            <sys_updated_on>2022-09-28 01:33:52</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Table - Self_service" name="sys_db_object" related_list="NULL" sys_domain="global" view="5f2a0e7f2fc21110b63859a72799b6c0">f6b67a802f9a1110b63859a72799b62f</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:17a52313bf1030001875647fcf0739d4</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>777</sys_created_by>
+            <sys_created_on>2022-09-28 01:33:52</sys_created_on>
+            <sys_id>32b636c02f9a1110b63859a72799b606</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>777</sys_updated_by>
+            <sys_updated_on>2022-09-28 01:33:52</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Table - Self_service" name="sys_db_object" related_list="NULL" sys_domain="global" view="5f2a0e7f2fc21110b63859a72799b6c0">f6b67a802f9a1110b63859a72799b62f</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>v_index_creator.table</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>777</sys_created_by>
+            <sys_created_on>2022-09-28 01:33:52</sys_created_on>
+            <sys_id>36b636c02f9a1110b63859a72799b606</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>777</sys_updated_by>
+            <sys_updated_on>2022-09-28 01:33:52</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Table - Self_service" name="sys_db_object" related_list="NULL" sys_domain="global" view="5f2a0e7f2fc21110b63859a72799b6c0">f6b67a802f9a1110b63859a72799b62f</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:a81e90f153311200efd6cbaac2dc3451</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>777</sys_created_by>
+            <sys_created_on>2022-09-28 01:33:52</sys_created_on>
+            <sys_id>3ab636c02f9a1110b63859a72799b606</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>777</sys_updated_by>
+            <sys_updated_on>2022-09-28 01:33:52</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Table - Self_service</calculated_name>
+            <filter/>
+            <name>sys_db_object</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>777</sys_created_by>
+            <sys_created_on>2022-09-28 01:33:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6b67a802f9a1110b63859a72799b62f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Table - Self_service</sys_name>
+            <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+            <sys_update_name>sys_ui_related_sys_db_object_Self_Service</sys_update_name>
+            <sys_updated_by>777</sys_updated_by>
+            <sys_updated_on>2022-09-28 01:33:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Self_service" name="Self_Service">5f2a0e7f2fc21110b63859a72799b6c0</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</application>
+        <file_path/>
+        <instance_id>eea0005edb77db4052e3f70fbf961990</instance_id>
+        <instance_name>dev69809</instance_name>
+        <name>sys_ui_related_sys_db_object_Self_Service</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="sys_db_object" version="2" view="Self_Service"><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Table - Self_service" name="sys_db_object" related_list="NULL" sys_domain="global" view="5f2a0e7f2fc21110b63859a72799b6c0">f6b67a802f9a1110b63859a72799b62f</list_id><order_by/><position>0</position><related_list>REL:27900e83c3713000bac1addbdfba8fb6</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>777</sys_created_by><sys_created_on>2022-09-28 01:33:52</sys_created_on><sys_id>3eb636c02f9a1110b63859a72799b605</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>777</sys_updated_by><sys_updated_on>2022-09-28 01:33:52</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Table - Self_service" name="sys_db_object" related_list="NULL" sys_domain="global" view="5f2a0e7f2fc21110b63859a72799b6c0">f6b67a802f9a1110b63859a72799b62f</list_id><order_by/><position>1</position><related_list>REL:17a52313bf1030001875647fcf0739d4</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>777</sys_created_by><sys_created_on>2022-09-28 01:33:52</sys_created_on><sys_id>32b636c02f9a1110b63859a72799b606</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>777</sys_updated_by><sys_updated_on>2022-09-28 01:33:52</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Table - Self_service" name="sys_db_object" related_list="NULL" sys_domain="global" view="5f2a0e7f2fc21110b63859a72799b6c0">f6b67a802f9a1110b63859a72799b62f</list_id><order_by/><position>2</position><related_list>v_index_creator.table</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>777</sys_created_by><sys_created_on>2022-09-28 01:33:52</sys_created_on><sys_id>36b636c02f9a1110b63859a72799b606</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>777</sys_updated_by><sys_updated_on>2022-09-28 01:33:52</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Table - Self_service" name="sys_db_object" related_list="NULL" sys_domain="global" view="5f2a0e7f2fc21110b63859a72799b6c0">f6b67a802f9a1110b63859a72799b62f</list_id><order_by/><position>3</position><related_list>REL:a81e90f153311200efd6cbaac2dc3451</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>777</sys_created_by><sys_created_on>2022-09-28 01:33:52</sys_created_on><sys_id>3ab636c02f9a1110b63859a72799b606</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>777</sys_updated_by><sys_updated_on>2022-09-28 01:33:52</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Table - Self_service</calculated_name><filter/><name>sys_db_object</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>777</sys_created_by><sys_created_on>2022-09-28 01:33:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f6b67a802f9a1110b63859a72799b62f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Table - Self_service</sys_name><sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package><sys_policy/><sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope><sys_update_name>sys_ui_related_sys_db_object_Self_Service</sys_update_name><sys_updated_by>777</sys_updated_by><sys_updated_on>2022-09-28 01:33:52</sys_updated_on><sys_user/><view display_value="Self_service" name="Self_Service">5f2a0e7f2fc21110b63859a72799b6c0</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>1843090097</payload_hash>
+        <record_name>Table</record_name>
+        <reverted_from/>
+        <source>5023a2002f5a1110b63859a72799b6ce</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-09-28 01:33:52</sys_created_on>
+        <sys_id>3ab636c02f9a1110b63859a72799b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18381ba94800000001</sys_recorded_at>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-09-28 01:33:52</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>feb636c0159a1110e02e0870ea0b9b07</update_guid>
+        <update_guid_history>feb636c0159a1110e02e0870ea0b9b07:1843090097,68b4b240fa9a1110040cd85ee95aee69:1094125103</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-03 01:04:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>b70e794fdda1428494d7bd233f802864</sys_id>
+        <sys_metadata>f6b67a802f9a1110b63859a72799b62f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table - Self_service</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_parent display_value="Sys Db Object">b375003121120110a866589604c20d8a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_scope_delete display_value="">96ec03c5910d46109a80415a4bf51840</sys_scope_delete>
+        <sys_update_name>sys_ui_related_sys_db_object_Self_Service</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_sys_db_object_Self_Service">3ab636c02f9a1110b63859a72799b608</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-03 01:04:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

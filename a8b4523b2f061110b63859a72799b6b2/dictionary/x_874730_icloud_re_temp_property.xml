@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="temp_property" max_length="40" name="x_874730_icloud_re_temp_property" type="collection">
+    <element extends="sys_import_set_row" label="temp_property" max_length="40" name="x_874730_icloud_re_temp_property" sizeclass="50" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Available date" label="Available date" max_length="40" name="u_available_date" type="glide_date"/>
         <element attributes="import_attribute_name=Monthly rent price" label="Monthly rent price" max_length="40" name="u_monthly_rent_price" type="integer"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Open for inspection" label="Open for inspection" max_length="40" name="u_open_for_inspection" type="glide_date_time"/>
