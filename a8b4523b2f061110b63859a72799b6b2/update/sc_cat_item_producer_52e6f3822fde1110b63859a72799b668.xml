@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</category>
+        <category/>
         <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
@@ -30,7 +30,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>General Enquiry</name>
+        <name>Key Collection</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -53,7 +53,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></post_insert_script>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=f4d78df92f561110b63859a72799b639&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=52e6f3822fde1110b63859a72799b668&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <published_ref/>
         <recurring_frequency/>
@@ -85,17 +85,17 @@
         <state>published</state>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>1111</sys_created_by>
-        <sys_created_on>2022-10-03 03:59:04</sys_created_on>
-        <sys_id>f4d78df92f561110b63859a72799b639</sys_id>
+        <sys_created_on>2022-10-04 11:23:25</sys_created_on>
+        <sys_id>52e6f3822fde1110b63859a72799b668</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name>General Enquiry</sys_name>
+        <sys_name>Key Collection</sys_name>
         <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
-        <sys_update_name>sc_cat_item_producer_f4d78df92f561110b63859a72799b639</sys_update_name>
+        <sys_update_name>sc_cat_item_producer_52e6f3822fde1110b63859a72799b668</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-10-03 04:23:51</sys_updated_on>
-        <table_name>x_874730_icloud_re_general_enquiry</table_name>
+        <sys_updated_on>2022-10-04 12:04:51</sys_updated_on>
+        <table_name>x_874730_icloud_re_key_collection</table_name>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
@@ -108,22 +108,22 @@
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item_producer>
-    <sys_translated_text action="delete_multiple" query="documentkey=f4d78df92f561110b63859a72799b639"/>
-    <fx_price action="delete_multiple" query="id=f4d78df92f561110b63859a72799b639"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=52e6f3822fde1110b63859a72799b668"/>
+    <fx_price action="delete_multiple" query="id=52e6f3822fde1110b63859a72799b668"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price</field>
-        <id>f4d78df92f561110b63859a72799b639</id>
+        <id>52e6f3822fde1110b63859a72799b668</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>1111</sys_created_by>
-        <sys_created_on>2022-10-03 03:59:04</sys_created_on>
-        <sys_id>aae7cdf92f561110b63859a72799b6a8</sys_id>
+        <sys_created_on>2022-10-04 11:23:25</sys_created_on>
+        <sys_id>a537ff422fde1110b63859a72799b6d7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>1111</sys_updated_by>
-        <sys_updated_on>2022-10-03 03:59:04</sys_updated_on>
+        <sys_updated_on>2022-10-04 11:23:25</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>

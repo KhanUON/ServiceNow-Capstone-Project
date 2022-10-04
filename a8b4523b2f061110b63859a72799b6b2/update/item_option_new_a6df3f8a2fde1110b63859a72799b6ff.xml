@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <attributes/>
-        <cat_item display_value="General Enquiry">f4d78df92f561110b63859a72799b639</cat_item>
+        <cat_item display_value="Key Collection">52e6f3822fde1110b63859a72799b668</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -19,7 +19,7 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>mobile</field>
+        <field>collectiondate</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -35,23 +35,23 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>mobile</name>
-        <order>400</order>
+        <name>collectiondate</name>
+        <order>300</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Mobile</question_text>
+        <question_text>Collection Date</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>x_874730_icloud_re_general_enquiry</record_producer_table>
+        <record_producer_table>x_874730_icloud_re_key_collection</record_producer_table>
         <reference/>
         <reference_qual>undefined</reference_qual>
         <reference_qual_condition>undefined</reference_qual_condition>
@@ -66,24 +66,24 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>1111</sys_created_by>
-        <sys_created_on>2022-10-03 04:22:42</sys_created_on>
-        <sys_id>61f8c17d2f561110b63859a72799b602</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Mobile</sys_name>
+        <sys_created_on>2022-10-04 12:02:04</sys_created_on>
+        <sys_id>a6df3f8a2fde1110b63859a72799b6ff</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Collection Date</sys_name>
         <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
-        <sys_update_name>item_option_new_61f8c17d2f561110b63859a72799b602</sys_update_name>
+        <sys_update_name>item_option_new_a6df3f8a2fde1110b63859a72799b6ff</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-10-03 04:23:50</sys_updated_on>
+        <sys_updated_on>2022-10-04 12:04:50</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>10</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <validate_regex display_value="Number">556cbfe5876b1300e0ef0cf888cb0be3</validate_regex>
+        <validate_regex/>
         <variable_name/>
         <variable_set/>
         <variable_width/>
@@ -94,22 +94,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=61f8c17d2f561110b63859a72799b602"/>
-    <fx_price action="delete_multiple" query="id=61f8c17d2f561110b63859a72799b602"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=a6df3f8a2fde1110b63859a72799b6ff"/>
+    <fx_price action="delete_multiple" query="id=a6df3f8a2fde1110b63859a72799b6ff"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>61f8c17d2f561110b63859a72799b602</id>
+        <id>a6df3f8a2fde1110b63859a72799b6ff</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>1111</sys_created_by>
-        <sys_created_on>2022-10-03 04:05:16</sys_created_on>
-        <sys_id>5959097d2f561110b63859a72799b623</sys_id>
+        <sys_created_on>2022-10-04 12:02:04</sys_created_on>
+        <sys_id>6b00801e2fde1110b63859a72799b666</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>1111</sys_updated_by>
-        <sys_updated_on>2022-10-03 04:05:16</sys_updated_on>
+        <sys_updated_on>2022-10-04 12:02:04</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -117,16 +117,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>61f8c17d2f561110b63859a72799b602</id>
+        <id>a6df3f8a2fde1110b63859a72799b6ff</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>1111</sys_created_by>
-        <sys_created_on>2022-10-03 04:05:16</sys_created_on>
-        <sys_id>1d59097d2f561110b63859a72799b622</sys_id>
+        <sys_created_on>2022-10-04 12:02:04</sys_created_on>
+        <sys_id>2f00801e2fde1110b63859a72799b665</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>1111</sys_updated_by>
-        <sys_updated_on>2022-10-03 04:05:16</sys_updated_on>
+        <sys_updated_on>2022-10-04 12:02:04</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
