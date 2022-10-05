@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>collectiondate</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>1234</sys_created_by>
+        <sys_created_on>2022-10-05 12:18:49</sys_created_on>
+        <sys_id>3e3d052a2f169110b63859a72799b6b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>collectiondate</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3e3d052a2f169110b63859a72799b6b0</sys_update_name>
+        <sys_updated_by>1234</sys_updated_by>
+        <sys_updated_on>2022-10-05 12:18:49</sys_updated_on>
+        <table>x_874730_icloud_re_key_collection</table>
+        <ui_policy display_value="Set date fiel mandotory">b99c4da62f169110b63859a72799b69a</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

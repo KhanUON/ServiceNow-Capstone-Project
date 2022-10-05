@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Key Collection" max_length="40" name="x_874730_icloud_re_key_collection" sizeclass="0" type="collection">
-        <element attributes="encode_utf8=false" dependent="address" dependent_on_field="address" label="Address" mandatory="true" max_length="32" name="address" reference="x_874730_icloud_re_icloud_property" type="reference" use_dependent_field="true"/>
-        <element attributes="edge_encryption_enabled=true" label="Collection Date" mandatory="true" max_length="40" name="collectiondate" type="glide_date"/>
+    <element extends="task" label="Key Collection" max_length="40" name="x_874730_icloud_re_key_collection" sizeclass="21" type="collection">
+        <element attributes="encode_utf8=false" dependent="propertyaddress" dependent_on_field="propertyaddress" label="Address" max_length="32" name="address" read_only="true" reference="x_874730_icloud_re_key_collection" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Collection Date" max_length="40" name="collectiondate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_reference_1" dependent_on_field="u_reference_1" label="Email" max_length="40" name="email" read_only="true" reference="sys_user" type="string" use_dependent_field="true"/>
         <element label="Key Number" mandatory="true" max_length="40" name="keynumber" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Key Type(s)" mandatory="true" max_length="40" name="keytypes" type="string">
             <choice>
@@ -18,7 +19,8 @@
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Property Manager Name" max_length="40" name="propertymanagername" reference="sys_user" reference_qual="roles=x_874730_icloud_re.icloud_admin^EQ" reference_qual_condition="roles=x_874730_icloud_re.icloud_admin^EQ" type="reference"/>
-        <element attributes="encode_utf8=false" label="Tenant  Name" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference">
+        <element dependent="username" dependent_on_field="username" label="UserName" max_length="32" name="username" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element attributes="encode_utf8=false" choice="1" label="Tenant  Name" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" reference_qual="roles=x_874730_icloud_re.Tenant^EQ" reference_qual_condition="roles=x_874730_icloud_re.Tenant^EQ" type="reference">
             <choice/>
         </element>
     </element>

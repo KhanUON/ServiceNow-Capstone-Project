@@ -1,0 +1,1608 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>key_collection_email_notification</internal_name>
+        <label_cache>[{"name":"Updated_1.current.propertymanagername.name","label":"Trigger - Record Updated➛Key Collection Record➛Property Manager Name➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Updated_1.current.username.name","label":"Trigger - Record Updated➛Key Collection Record➛UserName➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Updated_1.current.username","label":"Trigger - Record Updated➛Key Collection Record➛UserName","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"username"},{"name":"Updated_1.current.propertymanagername","label":"Trigger - Record Updated➛Key Collection Record➛Property Manager Name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"propertymanagername"},{"name":"Updated_1.current.propertyaddress","label":"Trigger - Record Updated➛Key Collection Record➛Property Address","reference":"x_874730_icloud_re_icloud_property","reference_display":"Property","type":"reference","base_type":"reference","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"propertyaddress"},{"name":"422b815e-15e0-45a1-a0ca-a9095ba5fe84.__dont_treat_as_error__","label":"1 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"422b815e-15e0-45a1-a0ca-a9095ba5fe84.__action_status__","label":"1 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"422b815e-15e0-45a1-a0ca-a9095ba5fe84.email","label":"1 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"27748bce-ea77-44f8-9057-d028f098d56f.__dont_treat_as_error__","label":"1 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"27748bce-ea77-44f8-9057-d028f098d56f.__action_status__","label":"1 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"Created or Updated_1.current.u_reference_1.email","label":"Trigger - Record Created or Updated➛Key Collection Record➛Tenant  Name➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Key Collection Table","reference":"x_874730_icloud_re_key_collection","reference_display":"Key Collection","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"5db8392e-7404-4219-8e6d-0e76e76b2961.email.type","label":"1 - Send Email➛email➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"sys_email","column_name":"type","choices":[{"label":"-- None --","used":false,"rawLabel":"-- None --","reference":false,"image":"","missing":false,"selected":false,"value":""},{"label":"received","used":false,"rawLabel":"received","reference":false,"image":"","missing":false,"selected":false,"value":"received","parameters":{"name":"sys_email"}},{"label":"received-ignored","used":false,"rawLabel":"received-ignored","reference":false,"image":"","missing":false,"selected":false,"value":"received-ignored","parameters":{"name":"sys_email"}},{"label":"send-failed","used":false,"rawLabel":"send-failed","reference":false,"image":"","missing":false,"selected":false,"value":"send-failed","parameters":{"name":"sys_email"}},{"label":"send-ignored","used":false,"rawLabel":"send-ignored","reference":false,"image":"","missing":false,"selected":false,"value":"send-ignored","parameters":{"name":"sys_email"}},{"label":"send-ready","used":false,"rawLabel":"send-ready","reference":false,"image":"","missing":false,"selected":false,"value":"send-ready","parameters":{"name":"sys_email"}},{"label":"sent","used":false,"rawLabel":"sent","reference":false,"image":"","missing":false,"selected":false,"value":"sent","parameters":{"name":"sys_email"}}]},{"name":"7335ba05-6285-4303-a567-2bc2d6962f43.__dont_treat_as_error__","label":"5 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"7335ba05-6285-4303-a567-2bc2d6962f43.__action_status__","label":"5 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"Created_1.current.collectiondate","label":"Trigger - Record Created➛Key Collection Record➛Collection Date","reference":"","reference_display":"Collection Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"collectiondate"},{"name":"Created_1.current.u_reference_1","label":"Trigger - Record Created➛Key Collection Record➛Tenant  Name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"u_reference_1"},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Key Collection Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"email"},{"name":"Created_1.current","label":"Trigger - Record Created➛Key Collection Record","reference":"x_874730_icloud_re_key_collection","reference_display":"Key Collection","type":"reference","base_type":"reference","attributes":{}},{"name":"5db8392e-7404-4219-8e6d-0e76e76b2961.__dont_treat_as_error__","label":"1 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5db8392e-7404-4219-8e6d-0e76e76b2961.__action_status__","label":"1 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5db8392e-7404-4219-8e6d-0e76e76b2961.email","label":"1 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Key Collection Record","reference":"x_874730_icloud_re_key_collection","reference_display":"Key Collection","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.email","label":"Trigger - Record Created or Updated➛Key Collection Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"email"},{"name":"Created or Updated_1.current.collectiondate","label":"Trigger - Record Created or Updated➛Key Collection Record➛Collection Date","reference":"","reference_display":"Collection Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"collectiondate"},{"name":"Created or Updated_1.current.u_reference_1","label":"Trigger - Record Created or Updated➛Key Collection Record➛Tenant  Name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"u_reference_1"},{"name":"Created_1.current.u_reference_1.email","label":"Trigger - Record Created➛Key Collection Record➛Tenant  Name➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.u_reference_1.name","label":"Trigger - Record Created➛Key Collection Record➛Tenant  Name➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Key Collection Record","reference":"x_874730_icloud_re_key_collection","reference_display":"Key Collection","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.email","label":"Trigger - Record Updated➛Key Collection Record➛Email","reference":"sys_user","reference_display":"User","type":"string","base_type":"string","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"email"},{"name":"Updated_1.current.collectiondate","label":"Trigger - Record Updated➛Key Collection Record➛Collection Date","reference":"","reference_display":"Collection Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"collectiondate"}]</label_cache>
+        <master_snapshot>623693d62f1e5110b63859a72799b6c4</master_snapshot>
+        <name>Key Collection Email Notification</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>00d5bd662fd69110b63859a72799b6ee</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 00:32:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a7cbe2da2f5a5110b63859a72799b6bd</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Key Collection Email Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>sys_hub_flow_a7cbe2da2f5a5110b63859a72799b6bd</sys_update_name>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:15:05</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a7cbe2da2f5a5110b63859a72799b6bd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a7cbe2da2f5a5110b63859a72799b6bd"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_874730_icloud_re_key_collection">stateCHANGESTO5<item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="5"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 15:15:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>00d5bd662fd69110b63859a72799b6ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:15:03</sys_updated_on>
+        <table>x_874730_icloud_re_key_collection</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"98d5bd662fd69110b63859a72799b6ee","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>a7cbe2da2f5a5110b63859a72799b6bd</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 15:15:03</sys_created_on>
+        <sys_id>98d5bd662fd69110b63859a72799b6ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:15:03</sys_updated_on>
+        <trigger display_value="">00d5bd662fd69110b63859a72799b6ee</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>98d5bd662fd69110b63859a72799b6ee</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 15:15:03</sys_created_on>
+        <sys_id>90d5bd662fd69110b63859a72799b6ef</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=a7cbe2da2f5a5110b63859a72799b6bd^sys_idNOT IN98d5bd662fd69110b63859a72799b6ee"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a7cbe2da2f5a5110b63859a72799b6bd^sys_idNOT INc502f1622fd69110b63859a72799b695"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Key Collection Email Notification">a7cbe2da2f5a5110b63859a72799b6bd</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 14:58:26</sys_created_on>
+        <sys_id>c502f1622fd69110b63859a72799b695</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:15:04</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c502f1622fd69110b63859a72799b695"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c502f1622fd69110b63859a72799b695</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 14:59:08</sys_created_on>
+        <sys_id>0322b5622fd69110b63859a72799b685</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:59:08</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c502f1622fd69110b63859a72799b695</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 14:58:27</sys_created_on>
+        <sys_id>4502f1622fd69110b63859a72799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:58:27</sys_updated_on>
+        <value>x_874730_icloud_re_key_collection</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c502f1622fd69110b63859a72799b695</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 14:58:27</sys_created_on>
+        <sys_id>8102f1622fd69110b63859a72799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:58:27</sys_updated_on>
+        <value/>
+        <variable display_value="Run flow In">4ecd76460f103300b599bca2ff767e0d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c502f1622fd69110b63859a72799b695</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 14:58:27</sys_created_on>
+        <sys_id>8902f1622fd69110b63859a72799b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:58:27</sys_updated_on>
+        <value>stateCHANGESTO5</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=c502f1622fd69110b63859a72799b695"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a7cbe2da2f5a5110b63859a72799b6bd"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a7cbe2da2f5a5110b63859a72799b6bd^sys_idNOT INebcbe2da2f5a5110b63859a72799b6be"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a7cbe2da2f5a5110b63859a72799b6bd</id>
+        <name>Key Collection Email Notification</name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 00:32:27</sys_created_on>
+        <sys_id>ebcbe2da2f5a5110b63859a72799b6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 00:32:27</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ebcbe2da2f5a5110b63859a72799b6be"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a7cbe2da2f5a5110b63859a72799b6bd^sys_idNOT IN58fd6e9e2f5a5110b63859a72799b6db,7402f1622fd69110b63859a72799b68d,80fd6e9e2f5a5110b63859a72799b6d7"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Key Collection Email Notification">a7cbe2da2f5a5110b63859a72799b6bd</model>
+        <model_id>a7cbe2da2f5a5110b63859a72799b6bd</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a7cbe2da2f5a5110b63859a72799b6bd</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 00:41:47</sys_created_on>
+        <sys_id>58fd6e9e2f5a5110b63859a72799b6db</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:15:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD1fc5bd660cd691105f78bf5064e17a90,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Key Collection Email Notification">a7cbe2da2f5a5110b63859a72799b6bd</model>
+        <model_id>a7cbe2da2f5a5110b63859a72799b6bd</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a7cbe2da2f5a5110b63859a72799b6bd</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 14:58:26</sys_created_on>
+        <sys_id>7402f1622fd69110b63859a72799b68d</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:15:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Key Collection Email Notification">a7cbe2da2f5a5110b63859a72799b6bd</model>
+        <model_id>a7cbe2da2f5a5110b63859a72799b6bd</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a7cbe2da2f5a5110b63859a72799b6bd</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 00:41:46</sys_created_on>
+        <sys_id>80fd6e9e2f5a5110b63859a72799b6d7</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:15:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=a7cbe2da2f5a5110b63859a72799b6bd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a7cbe2da2f5a5110b63859a72799b6bd"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a7cbe2da2f5a5110b63859a72799b6bd^sys_idNOT IN9a4393d22f1e5110b63859a72799b6dd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Key Collection Email Notification">a7cbe2da2f5a5110b63859a72799b6bd</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:24:56</sys_created_on>
+        <sys_id>9a4393d22f1e5110b63859a72799b6dd</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>888</sys_updated_by>
+        <sys_updated_on>2022-10-05 22:14:06</sys_updated_on>
+        <ui_id>422b815e-15e0-45a1-a0ca-a9095ba5fe84</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9a4393d22f1e5110b63859a72799b6dd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9a4393d22f1e5110b63859a72799b6dd</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:24:56</sys_created_on>
+        <sys_id>924393d22f1e5110b63859a72799b6e1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:58:27</sys_updated_on>
+        <value>Your key collection form is Ready for Pickup</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9a4393d22f1e5110b63859a72799b6dd</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:24:56</sys_created_on>
+        <sys_id>de4393d22f1e5110b63859a72799b6e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 03:24:56</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9a4393d22f1e5110b63859a72799b6dd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>9a4393d22f1e5110b63859a72799b6dd</id>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:24:56</sys_created_on>
+        <sys_id>9a4393d22f1e5110b63859a72799b6e0</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:14:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:dbeb49c1-9c48-4b14-b269-d18ae14b4da7}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:dbeb49c1-9c48-4b14-b269-d18ae14b4da7}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Updated &amp;gt; Key Collection Record &amp;gt; UserName &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_dbeb49c1-9c48-4b14-b269-d18ae14b4da7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your key&amp;nbsp; for&amp;nbsp; property &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:dfb7b834-3423-43fc-8cb1-1cc22dd8b38d}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:dfb7b834-3423-43fc-8cb1-1cc22dd8b38d}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Updated &amp;gt; Key Collection Record &amp;gt; Property Address"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Property Address&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_dfb7b834-3423-43fc-8cb1-1cc22dd8b38d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; is ready for collection at the office on the&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:8fba9dee-2b52-471c-b7d9-7f67fe27a883}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:8fba9dee-2b52-471c-b7d9-7f67fe27a883}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Updated &amp;gt; Key Collection Record &amp;gt; Collection Date"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Collection Date&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_8fba9dee-2b52-471c-b7d9-7f67fe27a883" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; .&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;If you wish to change the collection date, please contact your property manager to schedule another collection date.&lt;br /&gt;&lt;br /&gt;Thanks,&lt;br /&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:aaa75298-d2a9-48bf-b556-f11296169d83}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:aaa75298-d2a9-48bf-b556-f11296169d83}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Key Collection Record &amp;gt; Property Manager Name &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_aaa75298-d2a9-48bf-b556-f11296169d83" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>9a4393d22f1e5110b63859a72799b6dd</id>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:24:56</sys_created_on>
+        <sys_id>5e4393d22f1e5110b63859a72799b6e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 03:24:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>9a4393d22f1e5110b63859a72799b6dd</id>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:24:56</sys_created_on>
+        <sys_id>d24393d22f1e5110b63859a72799b6e0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:58:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value> {{Updated_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9a4393d22f1e5110b63859a72799b6dd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9a4393d22f1e5110b63859a72799b6dd"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a7cbe2da2f5a5110b63859a72799b6bd"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a7cbe2da2f5a5110b63859a72799b6bd"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a7cbe2da2f5a5110b63859a72799b6bd^sys_idNOT IN270479e22fd69110b63859a72799b656,2b0479e22fd69110b63859a72799b66f,2bb89b9a2f1e5110b63859a72799b64b,564393d22f1e5110b63859a72799b6e9,8c03f6162f9a5110b63859a72799b631,9105bd262fd69110b63859a72799b6c1,a0fdae9e2f5a5110b63859a72799b64f,c403f6162f9a5110b63859a72799b631,c502f1622fd69110b63859a72799b69f,e70479e22fd69110b63859a72799b656,e8fdae9e2f5a5110b63859a72799b64f,f8c53d662fd69110b63859a72799b6a6"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a7cbe2da2f5a5110b63859a72799b6bd</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.propertyaddress}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 15:07:21</sys_created_on>
+        <sys_id>270479e22fd69110b63859a72799b656</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:07:21</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>dfb7b834-3423-43fc-8cb1-1cc22dd8b38d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a7cbe2da2f5a5110b63859a72799b6bd</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.username}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 15:07:21</sys_created_on>
+        <sys_id>2b0479e22fd69110b63859a72799b66f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:07:21</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2704ef9f-f18f-41d1-bb67-a178d30aa8e6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a7cbe2da2f5a5110b63859a72799b6bd</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.u_reference_1.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:48:47</sys_created_on>
+        <sys_id>2bb89b9a2f1e5110b63859a72799b64b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 03:48:47</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ed2aa16f-6efa-416b-acda-979dd019e584</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a7cbe2da2f5a5110b63859a72799b6bd</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.collectiondate}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:24:57</sys_created_on>
+        <sys_id>564393d22f1e5110b63859a72799b6e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 03:24:57</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c3f79a28-846e-4ee6-b65b-eefbcd092aab</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a7cbe2da2f5a5110b63859a72799b6bd</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_reference_1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 01:03:54</sys_created_on>
+        <sys_id>8c03f6162f9a5110b63859a72799b631</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 01:03:54</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c9b934f0-0cc8-48db-ba7b-311482849550</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a7cbe2da2f5a5110b63859a72799b6bd</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.username.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 15:11:34</sys_created_on>
+        <sys_id>9105bd262fd69110b63859a72799b6c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:11:34</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>dbeb49c1-9c48-4b14-b269-d18ae14b4da7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a7cbe2da2f5a5110b63859a72799b6bd</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.u_reference_1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 00:41:48</sys_created_on>
+        <sys_id>a0fdae9e2f5a5110b63859a72799b64f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 00:41:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6c7f06e9-6c88-4832-bf8e-1c2734a423f9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a7cbe2da2f5a5110b63859a72799b6bd</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.collectiondate}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 01:03:54</sys_created_on>
+        <sys_id>c403f6162f9a5110b63859a72799b631</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 01:03:54</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5068d821-5768-47d7-9c82-c513c340388d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a7cbe2da2f5a5110b63859a72799b6bd</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.collectiondate}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 14:58:27</sys_created_on>
+        <sys_id>c502f1622fd69110b63859a72799b69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:58:27</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8fba9dee-2b52-471c-b7d9-7f67fe27a883</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a7cbe2da2f5a5110b63859a72799b6bd</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.propertymanagername}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 15:07:21</sys_created_on>
+        <sys_id>e70479e22fd69110b63859a72799b656</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:07:21</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>25c3d0df-ae5c-4455-ac32-c896229a2d23</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a7cbe2da2f5a5110b63859a72799b6bd</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.collectiondate}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 00:41:48</sys_created_on>
+        <sys_id>e8fdae9e2f5a5110b63859a72799b64f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 00:41:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2c87fce5-fe03-4ec3-a197-e97563d4d94b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a7cbe2da2f5a5110b63859a72799b6bd</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.propertymanagername.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 15:14:48</sys_created_on>
+        <sys_id>f8c53d662fd69110b63859a72799b6a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:14:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>aaa75298-d2a9-48bf-b556-f11296169d83</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a7cbe2da2f5a5110b63859a72799b6bd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a7cbe2da2f5a5110b63859a72799b6bd^sys_idNOT IN8102f1622fd69110b63859a72799b691,88fd6e9e2f5a5110b63859a72799b6da,90fd6e9e2f5a5110b63859a72799b6de"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a7cbe2da2f5a5110b63859a72799b6bd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 14:58:26</sys_created_on>
+        <sys_id>8102f1622fd69110b63859a72799b691</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:58:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a7cbe2da2f5a5110b63859a72799b6bd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 00:41:46</sys_created_on>
+        <sys_id>88fd6e9e2f5a5110b63859a72799b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 00:41:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a7cbe2da2f5a5110b63859a72799b6bd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 00:41:47</sys_created_on>
+        <sys_id>90fd6e9e2f5a5110b63859a72799b6de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 00:41:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a7cbe2da2f5a5110b63859a72799b6bd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a7cbe2da2f5a5110b63859a72799b6bd"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a7cbe2da2f5a5110b63859a72799b6bd"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a7cbe2da2f5a5110b63859a72799b6bd^sys_idNOT IN0f36d3d62f1e5110b63859a72799b611"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"0f36d3d62f1e5110b63859a72799b611","name":"plan","plan_signature":null}}</plan>
+        <plan_id>a7cbe2da2f5a5110b63859a72799b6bd</plan_id>
+        <snapshot>2ab51b6e2f1e9110b63859a72799b665</snapshot>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0f36d3d62f1e5110b63859a72799b611</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:15:03</sys_updated_on>
+        <trigger display_value="">00d5bd662fd69110b63859a72799b6ee</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a7cbe2da2f5a5110b63859a72799b6bd"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>key_collection_email_notification</internal_name>
+        <label_cache>[{"name":"Updated_1.current.propertymanagername.name","label":"Trigger - Record Updated➛Key Collection Record➛Property Manager Name➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Updated_1.current.username.name","label":"Trigger - Record Updated➛Key Collection Record➛UserName➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Updated_1.current.username","label":"Trigger - Record Updated➛Key Collection Record➛UserName","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"username"},{"name":"Updated_1.current.propertymanagername","label":"Trigger - Record Updated➛Key Collection Record➛Property Manager Name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"propertymanagername"},{"name":"Updated_1.current.propertyaddress","label":"Trigger - Record Updated➛Key Collection Record➛Property Address","reference":"x_874730_icloud_re_icloud_property","reference_display":"Property","type":"reference","base_type":"reference","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"propertyaddress"},{"name":"422b815e-15e0-45a1-a0ca-a9095ba5fe84.__dont_treat_as_error__","label":"1 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"422b815e-15e0-45a1-a0ca-a9095ba5fe84.__action_status__","label":"1 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"422b815e-15e0-45a1-a0ca-a9095ba5fe84.email","label":"1 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"27748bce-ea77-44f8-9057-d028f098d56f.__dont_treat_as_error__","label":"1 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"27748bce-ea77-44f8-9057-d028f098d56f.__action_status__","label":"1 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"Created or Updated_1.current.u_reference_1.email","label":"Trigger - Record Created or Updated➛Key Collection Record➛Tenant  Name➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Key Collection Table","reference":"x_874730_icloud_re_key_collection","reference_display":"Key Collection","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"5db8392e-7404-4219-8e6d-0e76e76b2961.email.type","label":"1 - Send Email➛email➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"sys_email","column_name":"type","choices":[{"label":"-- None --","used":false,"rawLabel":"-- None --","reference":false,"image":"","missing":false,"selected":false,"value":""},{"label":"received","used":false,"rawLabel":"received","reference":false,"image":"","missing":false,"selected":false,"value":"received","parameters":{"name":"sys_email"}},{"label":"received-ignored","used":false,"rawLabel":"received-ignored","reference":false,"image":"","missing":false,"selected":false,"value":"received-ignored","parameters":{"name":"sys_email"}},{"label":"send-failed","used":false,"rawLabel":"send-failed","reference":false,"image":"","missing":false,"selected":false,"value":"send-failed","parameters":{"name":"sys_email"}},{"label":"send-ignored","used":false,"rawLabel":"send-ignored","reference":false,"image":"","missing":false,"selected":false,"value":"send-ignored","parameters":{"name":"sys_email"}},{"label":"send-ready","used":false,"rawLabel":"send-ready","reference":false,"image":"","missing":false,"selected":false,"value":"send-ready","parameters":{"name":"sys_email"}},{"label":"sent","used":false,"rawLabel":"sent","reference":false,"image":"","missing":false,"selected":false,"value":"sent","parameters":{"name":"sys_email"}}]},{"name":"7335ba05-6285-4303-a567-2bc2d6962f43.__dont_treat_as_error__","label":"5 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"7335ba05-6285-4303-a567-2bc2d6962f43.__action_status__","label":"5 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"Created_1.current.collectiondate","label":"Trigger - Record Created➛Key Collection Record➛Collection Date","reference":"","reference_display":"Collection Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"collectiondate"},{"name":"Created_1.current.u_reference_1","label":"Trigger - Record Created➛Key Collection Record➛Tenant  Name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"u_reference_1"},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Key Collection Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"email"},{"name":"Created_1.current","label":"Trigger - Record Created➛Key Collection Record","reference":"x_874730_icloud_re_key_collection","reference_display":"Key Collection","type":"reference","base_type":"reference","attributes":{}},{"name":"5db8392e-7404-4219-8e6d-0e76e76b2961.__dont_treat_as_error__","label":"1 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5db8392e-7404-4219-8e6d-0e76e76b2961.__action_status__","label":"1 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5db8392e-7404-4219-8e6d-0e76e76b2961.email","label":"1 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Key Collection Record","reference":"x_874730_icloud_re_key_collection","reference_display":"Key Collection","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.email","label":"Trigger - Record Created or Updated➛Key Collection Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"email"},{"name":"Created or Updated_1.current.collectiondate","label":"Trigger - Record Created or Updated➛Key Collection Record➛Collection Date","reference":"","reference_display":"Collection Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"collectiondate"},{"name":"Created or Updated_1.current.u_reference_1","label":"Trigger - Record Created or Updated➛Key Collection Record➛Tenant  Name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"u_reference_1"},{"name":"Created_1.current.u_reference_1.email","label":"Trigger - Record Created➛Key Collection Record➛Tenant  Name➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.u_reference_1.name","label":"Trigger - Record Created➛Key Collection Record➛Tenant  Name➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Key Collection Record","reference":"x_874730_icloud_re_key_collection","reference_display":"Key Collection","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.email","label":"Trigger - Record Updated➛Key Collection Record➛Email","reference":"sys_user","reference_display":"User","type":"string","base_type":"string","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"email"},{"name":"Updated_1.current.collectiondate","label":"Trigger - Record Updated➛Key Collection Record➛Collection Date","reference":"","reference_display":"Collection Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_874730_icloud_re_key_collection","column_name":"collectiondate"}]</label_cache>
+        <master>true</master>
+        <name>Key Collection Email Notification</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Key Collection Email Notification">a7cbe2da2f5a5110b63859a72799b6bd</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>623693d62f1e5110b63859a72799b6c4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:15:00</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=623693d62f1e5110b63859a72799b6c4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=623693d62f1e5110b63859a72799b6c4"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=623693d62f1e5110b63859a72799b6c4^sys_idNOT INc33693d62f1e5110b63859a72799b6f3"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Key Collection Email Notification">623693d62f1e5110b63859a72799b6c4</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:49</sys_created_on>
+        <sys_id>c33693d62f1e5110b63859a72799b6f3</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:15:03</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c33693d62f1e5110b63859a72799b6f3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c33693d62f1e5110b63859a72799b6f3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:49</sys_created_on>
+        <sys_id>033693d62f1e5110b63859a72799b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 03:37:49</sys_updated_on>
+        <value>x_874730_icloud_re_key_collection</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c33693d62f1e5110b63859a72799b6f3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 14:59:16</sys_created_on>
+        <sys_id>0932f5622fd69110b63859a72799b6c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:59:16</sys_updated_on>
+        <value/>
+        <variable display_value="Run flow In">4ecd76460f103300b599bca2ff767e0d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c33693d62f1e5110b63859a72799b6f3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 14:59:16</sys_created_on>
+        <sys_id>4532f5622fd69110b63859a72799b6c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:59:16</sys_updated_on>
+        <value>stateCHANGESTO5</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c33693d62f1e5110b63859a72799b6f3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:49</sys_created_on>
+        <sys_id>4f3693d62f1e5110b63859a72799b6f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 03:37:49</sys_updated_on>
+        <value>state=-5</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c33693d62f1e5110b63859a72799b6f3</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 14:59:16</sys_created_on>
+        <sys_id>8132f5622fd69110b63859a72799b6c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:59:16</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c33693d62f1e5110b63859a72799b6f3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 14:59:16</sys_created_on>
+        <sys_id>c932f5622fd69110b63859a72799b6c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:59:16</sys_updated_on>
+        <value>x_874730_icloud_re_key_collection</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=c33693d62f1e5110b63859a72799b6f3"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=623693d62f1e5110b63859a72799b6c4"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=623693d62f1e5110b63859a72799b6c4^sys_idNOT IN623693d62f1e5110b63859a72799b6c5"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>623693d62f1e5110b63859a72799b6c4</id>
+        <name>Key Collection Email Notification</name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:48</sys_created_on>
+        <sys_id>623693d62f1e5110b63859a72799b6c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 03:37:48</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=623693d62f1e5110b63859a72799b6c5"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=623693d62f1e5110b63859a72799b6c4^sys_idNOT IN323693d62f1e5110b63859a72799b6dc,b63693d62f1e5110b63859a72799b6c6,c132f5622fd69110b63859a72799b6ac"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Key Collection Email Notification">623693d62f1e5110b63859a72799b6c4</model>
+        <model_id>623693d62f1e5110b63859a72799b6c4</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_623693d62f1e5110b63859a72799b6c4</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:48</sys_created_on>
+        <sys_id>323693d62f1e5110b63859a72799b6dc</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:14:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Key Collection Email Notification">623693d62f1e5110b63859a72799b6c4</model>
+        <model_id>623693d62f1e5110b63859a72799b6c4</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_623693d62f1e5110b63859a72799b6c4</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:48</sys_created_on>
+        <sys_id>b63693d62f1e5110b63859a72799b6c6</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:14:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD1fc5bd660cd691105f78bf5064e17a90,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Key Collection Email Notification">623693d62f1e5110b63859a72799b6c4</model>
+        <model_id>623693d62f1e5110b63859a72799b6c4</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_623693d62f1e5110b63859a72799b6c4</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 14:59:15</sys_created_on>
+        <sys_id>c132f5622fd69110b63859a72799b6ac</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:14:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=623693d62f1e5110b63859a72799b6c4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=623693d62f1e5110b63859a72799b6c4"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=623693d62f1e5110b63859a72799b6c4^sys_idNOT INf63693d62f1e5110b63859a72799b6ef"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Key Collection Email Notification">623693d62f1e5110b63859a72799b6c4</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:49</sys_created_on>
+        <sys_id>f63693d62f1e5110b63859a72799b6ef</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:15:00</sys_updated_on>
+        <ui_id>422b815e-15e0-45a1-a0ca-a9095ba5fe84</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f63693d62f1e5110b63859a72799b6ef"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f63693d62f1e5110b63859a72799b6ef</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:49</sys_created_on>
+        <sys_id>4f3693d62f1e5110b63859a72799b6f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:59:16</sys_updated_on>
+        <value>Your key collection form is Ready for Pickup</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f63693d62f1e5110b63859a72799b6ef</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:49</sys_created_on>
+        <sys_id>873693d62f1e5110b63859a72799b6f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 03:37:49</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f63693d62f1e5110b63859a72799b6ef"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>f63693d62f1e5110b63859a72799b6ef</id>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:49</sys_created_on>
+        <sys_id>433693d62f1e5110b63859a72799b6f2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:14:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:dbeb49c1-9c48-4b14-b269-d18ae14b4da7}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:dbeb49c1-9c48-4b14-b269-d18ae14b4da7}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Updated &amp;gt; Key Collection Record &amp;gt; UserName &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_dbeb49c1-9c48-4b14-b269-d18ae14b4da7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your key&amp;nbsp; for&amp;nbsp; property &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:dfb7b834-3423-43fc-8cb1-1cc22dd8b38d}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:dfb7b834-3423-43fc-8cb1-1cc22dd8b38d}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Updated &amp;gt; Key Collection Record &amp;gt; Property Address"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Property Address&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_dfb7b834-3423-43fc-8cb1-1cc22dd8b38d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; is ready for collection at the office on the&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:8fba9dee-2b52-471c-b7d9-7f67fe27a883}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:8fba9dee-2b52-471c-b7d9-7f67fe27a883}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Updated &amp;gt; Key Collection Record &amp;gt; Collection Date"&gt;&lt;span class="pill-start"&gt;Trigger - Record Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Collection Date&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_8fba9dee-2b52-471c-b7d9-7f67fe27a883" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; .&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;If you wish to change the collection date, please contact your property manager to schedule another collection date.&lt;br /&gt;&lt;br /&gt;Thanks,&lt;br /&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:aaa75298-d2a9-48bf-b556-f11296169d83}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:aaa75298-d2a9-48bf-b556-f11296169d83}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Key Collection Record &amp;gt; Property Manager Name &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_aaa75298-d2a9-48bf-b556-f11296169d83" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>f63693d62f1e5110b63859a72799b6ef</id>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:49</sys_created_on>
+        <sys_id>073693d62f1e5110b63859a72799b6f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 03:37:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>f63693d62f1e5110b63859a72799b6ef</id>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:49</sys_created_on>
+        <sys_id>ba3693d62f1e5110b63859a72799b6f1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:59:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value> {{Updated_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f63693d62f1e5110b63859a72799b6ef"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f63693d62f1e5110b63859a72799b6ef"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=623693d62f1e5110b63859a72799b6c4"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=623693d62f1e5110b63859a72799b6c4"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=623693d62f1e5110b63859a72799b6c4^sys_idNOT IN1532f5622fd69110b63859a72799b6df,433693d62f1e5110b63859a72799b6f6,473693d62f1e5110b63859a72799b6f5,4f3693d62f1e5110b63859a72799b6f5,a3c5bd662fd69110b63859a72799b6a9,b514b9e22fd69110b63859a72799b6dd,bd14b9e22fd69110b63859a72799b6dc,cb3693d62f1e5110b63859a72799b6f5,cf3693d62f1e5110b63859a72799b6f5,dd32f5622fd69110b63859a72799b6de,f81531662fd69110b63859a72799b669,f914b9e22fd69110b63859a72799b6dc"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>623693d62f1e5110b63859a72799b6c4</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.u_reference_1.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 14:59:17</sys_created_on>
+        <sys_id>1532f5622fd69110b63859a72799b6df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:59:17</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ed2aa16f-6efa-416b-acda-979dd019e584</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>623693d62f1e5110b63859a72799b6c4</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.collectiondate}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:49</sys_created_on>
+        <sys_id>433693d62f1e5110b63859a72799b6f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 03:37:49</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c3f79a28-846e-4ee6-b65b-eefbcd092aab</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>623693d62f1e5110b63859a72799b6c4</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.collectiondate}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:49</sys_created_on>
+        <sys_id>473693d62f1e5110b63859a72799b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 03:37:49</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2c87fce5-fe03-4ec3-a197-e97563d4d94b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>623693d62f1e5110b63859a72799b6c4</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.collectiondate}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:49</sys_created_on>
+        <sys_id>4f3693d62f1e5110b63859a72799b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 03:37:49</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5068d821-5768-47d7-9c82-c513c340388d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>623693d62f1e5110b63859a72799b6c4</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.propertymanagername.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 15:15:00</sys_created_on>
+        <sys_id>a3c5bd662fd69110b63859a72799b6a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:15:00</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>aaa75298-d2a9-48bf-b556-f11296169d83</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>623693d62f1e5110b63859a72799b6c4</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.propertyaddress}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 15:07:30</sys_created_on>
+        <sys_id>b514b9e22fd69110b63859a72799b6dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:07:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>dfb7b834-3423-43fc-8cb1-1cc22dd8b38d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>623693d62f1e5110b63859a72799b6c4</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.propertymanagername}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 15:07:30</sys_created_on>
+        <sys_id>bd14b9e22fd69110b63859a72799b6dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:07:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>25c3d0df-ae5c-4455-ac32-c896229a2d23</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>623693d62f1e5110b63859a72799b6c4</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_reference_1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:49</sys_created_on>
+        <sys_id>cb3693d62f1e5110b63859a72799b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 03:37:49</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c9b934f0-0cc8-48db-ba7b-311482849550</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>623693d62f1e5110b63859a72799b6c4</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.u_reference_1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:49</sys_created_on>
+        <sys_id>cf3693d62f1e5110b63859a72799b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 03:37:49</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6c7f06e9-6c88-4832-bf8e-1c2734a423f9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>623693d62f1e5110b63859a72799b6c4</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.collectiondate}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 14:59:17</sys_created_on>
+        <sys_id>dd32f5622fd69110b63859a72799b6de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:59:17</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8fba9dee-2b52-471c-b7d9-7f67fe27a883</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>623693d62f1e5110b63859a72799b6c4</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.username.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 15:11:49</sys_created_on>
+        <sys_id>f81531662fd69110b63859a72799b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:11:49</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>dbeb49c1-9c48-4b14-b269-d18ae14b4da7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>623693d62f1e5110b63859a72799b6c4</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.username}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 15:07:30</sys_created_on>
+        <sys_id>f914b9e22fd69110b63859a72799b6dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 15:07:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2704ef9f-f18f-41d1-bb67-a178d30aa8e6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=623693d62f1e5110b63859a72799b6c4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_623693d62f1e5110b63859a72799b6c4^sys_idNOT IN0532f5622fd69110b63859a72799b6b1,f63693d62f1e5110b63859a72799b6d8,fa3693d62f1e5110b63859a72799b6e0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_623693d62f1e5110b63859a72799b6c4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 14:59:16</sys_created_on>
+        <sys_id>0532f5622fd69110b63859a72799b6b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:59:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_623693d62f1e5110b63859a72799b6c4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:48</sys_created_on>
+        <sys_id>f63693d62f1e5110b63859a72799b6d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 03:37:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_623693d62f1e5110b63859a72799b6c4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>777</sys_created_by>
+        <sys_created_on>2022-10-05 03:37:49</sys_created_on>
+        <sys_id>fa3693d62f1e5110b63859a72799b6e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>777</sys_updated_by>
+        <sys_updated_on>2022-10-05 03:37:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_623693d62f1e5110b63859a72799b6c4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_623693d62f1e5110b63859a72799b6c4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_623693d62f1e5110b63859a72799b6c4"/>
+    <sys_hub_flow action="update">
+        <sys_id>a7cbe2da2f5a5110b63859a72799b6bd</sys_id>
+        <latest_snapshot>623693d62f1e5110b63859a72799b6c4</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

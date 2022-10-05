@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2022-10-04 02:34:46">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2022-10-05 22:43:02">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout/>
         <order/>
@@ -30,66 +30,99 @@
                 <page display_value="PA Icloud Employee Dash - New Tab">6c2581c62f521110b63859a72799b685</page>
                 <summary>Number of General Enquiries</summary>
                 <sys_created_by>888</sys_created_by>
-                <sys_created_on>2022-10-04 02:24:32</sys_created_on>
-                <sys_id>e3db7dca2fd61110b63859a72799b68a</sys_id>
-                <sys_mod_count>2</sys_mod_count>
+                <sys_created_on>2022-10-04 04:29:47</sys_created_on>
+                <sys_id>5688dac62f5a1110b63859a72799b6c8</sys_id>
+                <sys_mod_count>1</sys_mod_count>
                 <sys_updated_by>888</sys_updated_by>
-                <sys_updated_on>2022-10-04 02:29:26</sys_updated_on>
+                <sys_updated_on>2022-10-04 04:29:47</sys_updated_on>
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 2022-10-04 13:24:32">e3db7dca2fd61110b63859a72799b68a</portal_section>
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-10-04 15:29:47">5688dac62f5a1110b63859a72799b6c8</portal_section>
                         <sys_created_by>888</sys_created_by>
-                        <sys_created_on>2022-10-04 02:24:32</sys_created_on>
-                        <sys_id>27db7dca2fd61110b63859a72799b68b</sys_id>
-                        <sys_mod_count>1</sys_mod_count>
-                        <sys_updated_by>888</sys_updated_by>
-                        <sys_updated_on>2022-10-04 02:29:26</sys_updated_on>
-                        <value>Number of General Enquiries</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_subscribe</name>
-                        <portal_section display_value="Created 2022-10-04 13:24:32">e3db7dca2fd61110b63859a72799b68a</portal_section>
-                        <sys_created_by>888</sys_created_by>
-                        <sys_created_on>2022-10-04 02:24:32</sys_created_on>
-                        <sys_id>63db7dca2fd61110b63859a72799b68b</sys_id>
+                        <sys_created_on>2022-10-04 04:29:47</sys_created_on>
+                        <sys_id>1a88dac62f5a1110b63859a72799b6c9</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>888</sys_updated_by>
-                        <sys_updated_on>2022-10-04 02:24:32</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 2022-10-04 13:24:32">e3db7dca2fd61110b63859a72799b68a</portal_section>
-                        <sys_created_by>888</sys_created_by>
-                        <sys_created_on>2022-10-04 02:24:32</sys_created_on>
-                        <sys_id>67db7dca2fd61110b63859a72799b68a</sys_id>
-                        <sys_mod_count>1</sys_mod_count>
-                        <sys_updated_by>888</sys_updated_by>
-                        <sys_updated_on>2022-10-04 02:29:26</sys_updated_on>
-                        <value>bafcb50e2fd61110b63859a72799b637</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>help_text_window</name>
-                        <portal_section display_value="Created 2022-10-04 13:24:32">e3db7dca2fd61110b63859a72799b68a</portal_section>
-                        <sys_created_by>888</sys_created_by>
-                        <sys_created_on>2022-10-04 02:24:32</sys_created_on>
-                        <sys_id>afdb7dca2fd61110b63859a72799b68a</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>888</sys_updated_by>
-                        <sys_updated_on>2022-10-04 02:24:32</sys_updated_on>
-                        <value>report_widget_description</value>
+                        <sys_updated_on>2022-10-04 04:29:47</sys_updated_on>
+                        <value>line</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2022-10-04 13:24:32">e3db7dca2fd61110b63859a72799b68a</portal_section>
+                        <portal_section display_value="Created 2022-10-04 15:29:47">5688dac62f5a1110b63859a72799b6c8</portal_section>
                         <sys_created_by>888</sys_created_by>
-                        <sys_created_on>2022-10-04 02:24:32</sys_created_on>
-                        <sys_id>ebdb7dca2fd61110b63859a72799b68a</sys_id>
+                        <sys_created_on>2022-10-04 04:29:47</sys_created_on>
+                        <sys_id>1e88dac62f5a1110b63859a72799b6c8</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>888</sys_updated_by>
-                        <sys_updated_on>2022-10-04 02:24:32</sys_updated_on>
+                        <sys_updated_on>2022-10-04 04:29:47</sys_updated_on>
                         <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2022-10-04 15:29:47">5688dac62f5a1110b63859a72799b6c8</portal_section>
+                        <sys_created_by>888</sys_created_by>
+                        <sys_created_on>2022-10-04 04:29:47</sys_created_on>
+                        <sys_id>5288dac62f5a1110b63859a72799b6ca</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>888</sys_updated_by>
+                        <sys_updated_on>2022-10-04 04:29:47</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-10-04 15:29:47">5688dac62f5a1110b63859a72799b6c8</portal_section>
+                        <sys_created_by>888</sys_created_by>
+                        <sys_created_on>2022-10-04 04:29:47</sys_created_on>
+                        <sys_id>5688dac62f5a1110b63859a72799b6c9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>888</sys_updated_by>
+                        <sys_updated_on>2022-10-04 04:29:47</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2022-10-04 15:29:47">5688dac62f5a1110b63859a72799b6c8</portal_section>
+                        <sys_created_by>888</sys_created_by>
+                        <sys_created_on>2022-10-04 04:29:47</sys_created_on>
+                        <sys_id>9288dac62f5a1110b63859a72799b6c9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>888</sys_updated_by>
+                        <sys_updated_on>2022-10-04 04:29:47</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-10-04 15:29:47">5688dac62f5a1110b63859a72799b6c8</portal_section>
+                        <sys_created_by>888</sys_created_by>
+                        <sys_created_on>2022-10-04 04:29:47</sys_created_on>
+                        <sys_id>d688dac62f5a1110b63859a72799b6c8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>888</sys_updated_by>
+                        <sys_updated_on>2022-10-04 04:29:47</sys_updated_on>
+                        <value>bafcb50e2fd61110b63859a72799b637</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-10-04 15:29:47">5688dac62f5a1110b63859a72799b6c8</portal_section>
+                        <sys_created_by>888</sys_created_by>
+                        <sys_created_on>2022-10-04 04:29:47</sys_created_on>
+                        <sys_id>da88dac62f5a1110b63859a72799b6c9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>888</sys_updated_by>
+                        <sys_updated_on>2022-10-04 04:29:47</sys_updated_on>
+                        <value>Number of General Enquiries</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-10-04 15:29:47">5688dac62f5a1110b63859a72799b6c8</portal_section>
+                        <sys_created_by>888</sys_created_by>
+                        <sys_created_on>2022-10-04 04:29:47</sys_created_on>
+                        <sys_id>de88dac62f5a1110b63859a72799b6c8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>888</sys_updated_by>
+                        <sys_updated_on>2022-10-04 04:29:47</sys_updated_on>
+                        <value>report_widget_description</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>

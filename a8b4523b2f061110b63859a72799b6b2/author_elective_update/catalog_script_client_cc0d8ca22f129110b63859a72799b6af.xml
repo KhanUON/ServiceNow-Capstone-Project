@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Key Collection">3c73c42a2fde5110b63859a72799b6bd</cat_item>
+        <cat_variable>IO:7dc38c2a2fde5110b63859a72799b66c</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Email</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+                   
+    }
+	var abc= g_form.getValue('u_reference_1');
+	var gr = new GlideRecord('sys_user');
+    gr.addQuery('name',abc);
+    gr.query();
+        while (gr.next()){
+			//g_form.setValue("email",gr.email);
+			alert(gr.email);
+		}
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>1234</sys_created_by>
+        <sys_created_on>2022-10-05 07:37:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cc0d8ca22f129110b63859a72799b6af</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set Email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>catalog_script_client_cc0d8ca22f129110b63859a72799b6af</sys_update_name>
+        <sys_updated_by>1234</sys_updated_by>
+        <sys_updated_on>2022-10-05 07:47:42</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</application>
+        <file_path/>
+        <instance_id>eea0005edb77db4052e3f70fbf961990</instance_id>
+        <instance_name>dev69809</instance_name>
+        <name>catalog_script_client_cc0d8ca22f129110b63859a72799b6af</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Key Collection"&gt;3c73c42a2fde5110b63859a72799b6bd&lt;/cat_item&gt;&lt;cat_variable&gt;IO:7dc38c2a2fde5110b63859a72799b66c&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set Email&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+                   
+    }
+	var abc= g_form.getValue('u_reference_1');
+	var gr = new GlideRecord('sys_user');
+    gr.addQuery('name',abc);
+    gr.query();
+        while (gr.next()){
+			//g_form.setValue("email",gr.email);
+			alert(gr.email);
+		}
+    //Type appropriate comment here, and begin script below
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;1234&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-05 07:37:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cc0d8ca22f129110b63859a72799b6af&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Email&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re"&gt;a8b4523b2f061110b63859a72799b6b2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Icloud Real Estate"&gt;a8b4523b2f061110b63859a72799b6b2&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_cc0d8ca22f129110b63859a72799b6af&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;1234&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-05 07:47:42&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-81161800</payload_hash>
+        <record_name>Set Email</record_name>
+        <reverted_from/>
+        <source>b4e6ab802f5e1110b63859a72799b646</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>1234</sys_created_by>
+        <sys_created_on>2022-10-05 07:47:42</sys_created_on>
+        <sys_id>536f80e62f129110b63859a72799b69b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183a71d5ad20000001</sys_recorded_at>
+        <sys_updated_by>1234</sys_updated_by>
+        <sys_updated_on>2022-10-05 07:47:42</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>5b6f80e63b1291104051ba9965d2079a</update_guid>
+        <update_guid_history>5b6f80e63b1291104051ba9965d2079a:-81161800,595f8ca6f812911091cd78681ee0f071:1960524088,c5de04a66f129110e9f83172ae18dee0:305093936,043d04e22d129110cf931fe754b7b242:64362328,c80d8ca2d51291107bba56b509dc3cb2:-1885250998</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Set Email">c8df4ce62f129110b63859a72799b662</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-05 07:49:23</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>63ce149a82214e119c4cd4a1db539401</sys_id>
+        <sys_metadata>cc0d8ca22f129110b63859a72799b6af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Email</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_scope_delete display_value="">96ec03c5910d46109a80415a4bf51840</sys_scope_delete>
+        <sys_update_name>catalog_script_client_cc0d8ca22f129110b63859a72799b6af</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_cc0d8ca22f129110b63859a72799b6af">536f80e62f129110b63859a72799b69b</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-05 07:49:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

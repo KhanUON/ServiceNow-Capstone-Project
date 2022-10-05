@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Key Collection">e8b3482a2fde5110b63859a72799b6e4</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>1234</sys_created_by>
+        <sys_created_on>2022-10-05 06:56:27</sys_created_on>
+        <sys_id>ecb3482a2fde5110b63859a72799b6e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Key Collection</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_ecb3482a2fde5110b63859a72799b6e9</sys_update_name>
+        <sys_updated_by>1234</sys_updated_by>
+        <sys_updated_on>2022-10-05 06:56:27</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</application>
+        <file_path/>
+        <instance_id>eea0005edb77db4052e3f70fbf961990</instance_id>
+        <instance_name>dev69809</instance_name>
+        <name>sc_cat_item_catalog_ecb3482a2fde5110b63859a72799b6e9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Key Collection">e8b3482a2fde5110b63859a72799b6e4</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>1234</sys_created_by><sys_created_on>2022-10-05 06:56:27</sys_created_on><sys_id>ecb3482a2fde5110b63859a72799b6e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Key Collection</sys_name><sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package><sys_policy/><sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope><sys_update_name>sc_cat_item_catalog_ecb3482a2fde5110b63859a72799b6e9</sys_update_name><sys_updated_by>1234</sys_updated_by><sys_updated_on>2022-10-05 06:56:27</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>850940249</payload_hash>
+        <record_name>Service Catalog.Key Collection</record_name>
+        <reverted_from/>
+        <source>b4e6ab802f5e1110b63859a72799b646</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>1234</sys_created_by>
+        <sys_created_on>2022-10-05 06:56:27</sys_created_on>
+        <sys_id>e8b3482a2fde5110b63859a72799b6ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183a6ee704a0000001</sys_recorded_at>
+        <sys_updated_by>1234</sys_updated_by>
+        <sys_updated_on>2022-10-05 06:56:27</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>60b3482a5bde5110f67f57bf9d5d7dec</update_guid>
+        <update_guid_history>60b3482a5bde5110f67f57bf9d5d7dec:850940249</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Key Collection">21f8ccae2fde5110b63859a72799b634</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-05 07:19:28</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>29cfa85869334eb0b62335e491cef900</sys_id>
+        <sys_metadata>ecb3482a2fde5110b63859a72799b6e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Key Collection</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_parent display_value="Key Collection">3c73c42a2fde5110b63859a72799b6bd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_scope_delete display_value="">96ec03c5910d46109a80415a4bf51840</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_ecb3482a2fde5110b63859a72799b6e9</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_ecb3482a2fde5110b63859a72799b6e9">e8b3482a2fde5110b63859a72799b6ec</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-05 07:19:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref display_value="FOB only">bdbf3fca2fde1110b63859a72799b6f3</published_ref>
+        <question display_value="Key Type(s)">66906a522f5a5110b63859a72799b6c7</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>1111</sys_created_by>
+        <sys_created_on>2022-10-04 23:43:30</sys_created_on>
+        <sys_id>6a906a522f5a5110b63859a72799b6e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FOB only</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>question_choice_6a906a522f5a5110b63859a72799b6e4</sys_update_name>
+        <sys_updated_by>1111</sys_updated_by>
+        <sys_updated_on>2022-10-04 23:43:30</sys_updated_on>
+        <text>FOB only</text>
+        <value>fob_only</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=6a906a522f5a5110b63859a72799b6e4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</application>
+        <file_path/>
+        <instance_id>eea0005edb77db4052e3f70fbf961990</instance_id>
+        <instance_name>dev69809</instance_name>
+        <name>question_choice_6a906a522f5a5110b63859a72799b6e4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>300</order><published_ref display_value="FOB only">bdbf3fca2fde1110b63859a72799b6f3</published_ref><question display_value="Key Type(s)">66906a522f5a5110b63859a72799b6c7</question><sys_class_name>question_choice</sys_class_name><sys_created_by>1111</sys_created_by><sys_created_on>2022-10-04 23:43:30</sys_created_on><sys_id>6a906a522f5a5110b63859a72799b6e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>FOB only</sys_name><sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package><sys_policy/><sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope><sys_update_name>question_choice_6a906a522f5a5110b63859a72799b6e4</sys_update_name><sys_updated_by>1111</sys_updated_by><sys_updated_on>2022-10-04 23:43:30</sys_updated_on><text>FOB only</text><value>fob_only</value></question_choice><fx_price action="delete_multiple" query="id=6a906a522f5a5110b63859a72799b6e4"/></record_update>]]></payload>
+        <payload_hash>2129425273</payload_hash>
+        <record_name>FOB only</record_name>
+        <reverted_from/>
+        <source>bdf9d1b42fd21110b63859a72799b6ab</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>1111</sys_created_by>
+        <sys_created_on>2022-10-04 23:43:30</sys_created_on>
+        <sys_id>22906a522f5a5110b63859a72799b6e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183a5620eb50000001</sys_recorded_at>
+        <sys_updated_by>1111</sys_updated_by>
+        <sys_updated_on>2022-10-04 23:43:30</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>a6906a52e55a51106089ae7dd73debe6</update_guid>
+        <update_guid_history>a6906a52e55a51106089ae7dd73debe6:2129425273</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="FOB only">7834a6562f5a5110b63859a72799b64f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-04 23:59:13</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>0884eb2084244056b60e9239cb044059</sys_id>
+        <sys_metadata>6a906a522f5a5110b63859a72799b6e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FOB only</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_parent display_value="">66906a522f5a5110b63859a72799b6c7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_scope_delete display_value="">96ec03c5910d46109a80415a4bf51840</sys_scope_delete>
+        <sys_update_name>question_choice_6a906a522f5a5110b63859a72799b6e4</sys_update_name>
+        <sys_update_version display_value="question_choice_6a906a522f5a5110b63859a72799b6e4">22906a522f5a5110b63859a72799b6e7</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-04 23:59:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

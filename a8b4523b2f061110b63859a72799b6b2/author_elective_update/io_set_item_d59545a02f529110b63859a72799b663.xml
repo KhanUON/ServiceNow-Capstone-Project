@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="">3c8505202f529110b63859a72799b696</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>1111</sys_created_by>
+        <sys_created_on>2022-09-29 06:36:28</sys_created_on>
+        <sys_id>d59545a02f529110b63859a72799b663</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Standard Employee Questions.</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>io_set_item_d59545a02f529110b63859a72799b663</sys_update_name>
+        <sys_updated_by>1111</sys_updated_by>
+        <sys_updated_on>2022-09-29 06:36:28</sys_updated_on>
+        <variable_set display_value="Standard Employee Questions">e01cab1a4f334200086eeed18110c71f</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</application>
+        <file_path/>
+        <instance_id>eea0005edb77db4052e3f70fbf961990</instance_id>
+        <instance_name>dev69809</instance_name>
+        <name>io_set_item_d59545a02f529110b63859a72799b663</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="">3c8505202f529110b63859a72799b696</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>1111</sys_created_by><sys_created_on>2022-09-29 06:36:28</sys_created_on><sys_id>d59545a02f529110b63859a72799b663</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Standard Employee Questions.</sys_name><sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package><sys_policy/><sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope><sys_update_name>io_set_item_d59545a02f529110b63859a72799b663</sys_update_name><sys_updated_by>1111</sys_updated_by><sys_updated_on>2022-09-29 06:36:28</sys_updated_on><variable_set display_value="Standard Employee Questions">e01cab1a4f334200086eeed18110c71f</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1639824185</payload_hash>
+        <record_name>Standard Employee Questions.</record_name>
+        <reverted_from/>
+        <source>66136a002f5a1110b63859a72799b6f7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>1111</sys_created_by>
+        <sys_created_on>2022-09-29 06:36:29</sys_created_on>
+        <sys_id>ad9545a02f529110b63859a72799b668</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18387f5ff730000001</sys_recorded_at>
+        <sys_updated_by>1111</sys_updated_by>
+        <sys_updated_on>2022-09-29 06:36:29</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>259545a096529110c42dbbfad0994668</update_guid>
+        <update_guid_history>259545a096529110c42dbbfad0994668:1639824185</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Standard Employee Questions.">3c405d2e2f169110b63859a72799b6ae</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>1111</sys_created_by>
+        <sys_created_on>2022-10-05 12:30:59</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>49c373c0407a4b0c95776b555c4acc90</sys_id>
+        <sys_metadata>d59545a02f529110b63859a72799b663</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Standard Employee Questions.</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_scope_delete display_value="">96ec03c5910d46109a80415a4bf51840</sys_scope_delete>
+        <sys_update_name>io_set_item_d59545a02f529110b63859a72799b663</sys_update_name>
+        <sys_update_version display_value="io_set_item_d59545a02f529110b63859a72799b663">ad9545a02f529110b63859a72799b668</sys_update_version>
+        <sys_updated_by>1111</sys_updated_by>
+        <sys_updated_on>2022-10-05 12:30:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

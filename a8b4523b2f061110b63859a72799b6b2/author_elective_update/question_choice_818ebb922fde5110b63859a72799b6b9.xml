@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>600</order>
+        <published_ref display_value="Garage and Front Door only">fdbf7fca2fde1110b63859a72799b615</published_ref>
+        <question display_value="Key Type(s)">b08ebb922fde5110b63859a72799b67a</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>1234</sys_created_by>
+        <sys_created_on>2022-10-05 06:33:49</sys_created_on>
+        <sys_id>818ebb922fde5110b63859a72799b6b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Garage and Front Door only</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>question_choice_818ebb922fde5110b63859a72799b6b9</sys_update_name>
+        <sys_updated_by>1234</sys_updated_by>
+        <sys_updated_on>2022-10-05 06:33:49</sys_updated_on>
+        <text>Garage and Front Door only</text>
+        <value>garage_and_front_door_only</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=818ebb922fde5110b63859a72799b6b9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</application>
+        <file_path/>
+        <instance_id>eea0005edb77db4052e3f70fbf961990</instance_id>
+        <instance_name>dev69809</instance_name>
+        <name>question_choice_818ebb922fde5110b63859a72799b6b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>600</order><published_ref display_value="Garage and Front Door only">fdbf7fca2fde1110b63859a72799b615</published_ref><question display_value="Key Type(s)">b08ebb922fde5110b63859a72799b67a</question><sys_class_name>question_choice</sys_class_name><sys_created_by>1234</sys_created_by><sys_created_on>2022-10-05 06:33:49</sys_created_on><sys_id>818ebb922fde5110b63859a72799b6b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Garage and Front Door only</sys_name><sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package><sys_policy/><sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope><sys_update_name>question_choice_818ebb922fde5110b63859a72799b6b9</sys_update_name><sys_updated_by>1234</sys_updated_by><sys_updated_on>2022-10-05 06:33:49</sys_updated_on><text>Garage and Front Door only</text><value>garage_and_front_door_only</value></question_choice><fx_price action="delete_multiple" query="id=818ebb922fde5110b63859a72799b6b9"/></record_update>]]></payload>
+        <payload_hash>-1025724562</payload_hash>
+        <record_name>Garage and Front Door only</record_name>
+        <reverted_from/>
+        <source>b4e6ab802f5e1110b63859a72799b646</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>1234</sys_created_by>
+        <sys_created_on>2022-10-05 06:33:49</sys_created_on>
+        <sys_id>498ebb922fde5110b63859a72799b6bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183a6d9b66a0000001</sys_recorded_at>
+        <sys_updated_by>1234</sys_updated_by>
+        <sys_updated_on>2022-10-05 06:33:49</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>cd8ebb92c4de511001fec514004e20ba</update_guid>
+        <update_guid_history>cd8ebb92c4de511001fec514004e20ba:-1025724562</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Garage and Front Door only">d8ee37d22fde5110b63859a72799b6cf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-05 06:35:24</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>0ccf212640e24a68879108acab2b7510</sys_id>
+        <sys_metadata>818ebb922fde5110b63859a72799b6b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Garage and Front Door only</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_parent display_value="">b08ebb922fde5110b63859a72799b67a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_scope_delete display_value="">96ec03c5910d46109a80415a4bf51840</sys_scope_delete>
+        <sys_update_name>question_choice_818ebb922fde5110b63859a72799b6b9</sys_update_name>
+        <sys_update_version display_value="question_choice_818ebb922fde5110b63859a72799b6b9">498ebb922fde5110b63859a72799b6bb</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-05 06:35:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

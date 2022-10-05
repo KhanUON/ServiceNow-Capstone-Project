@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Key Collection">3c73c42a2fde5110b63859a72799b6bd</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set dynamic user name</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    g_form.setValue('u_name', g_user.getFullName());
+
+   // var usr = g_form.getReference(g_user.userID, callBack);
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>1234</sys_created_by>
+        <sys_created_on>2022-10-05 13:11:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4769d1e62f569110b63859a72799b61a</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name>Set dynamic user name</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_update_name>catalog_script_client_4769d1e62f569110b63859a72799b61a</sys_update_name>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:30:39</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</application>
+        <file_path/>
+        <instance_id>eea0005edb77db4052e3f70fbf961990</instance_id>
+        <instance_name>dev69809</instance_name>
+        <name>catalog_script_client_4769d1e62f569110b63859a72799b61a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Key Collection"&gt;3c73c42a2fde5110b63859a72799b6bd&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set dynamic user name&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    g_form.setValue('u_name', g_user.getFullName());
+
+   // var usr = g_form.getReference(g_user.userID, callBack);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;1234&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-05 13:11:00&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4769d1e62f569110b63859a72799b61a&lt;/sys_id&gt;&lt;sys_mod_count&gt;36&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set dynamic user name&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re"&gt;a8b4523b2f061110b63859a72799b6b2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Icloud Real Estate"&gt;a8b4523b2f061110b63859a72799b6b2&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_4769d1e62f569110b63859a72799b61a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;TA&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-05 14:30:39&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1824192250</payload_hash>
+        <record_name>Set dynamic user name</record_name>
+        <reverted_from/>
+        <source>b4e6ab802f5e1110b63859a72799b646</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>TA</sys_created_by>
+        <sys_created_on>2022-10-05 14:30:39</sys_created_on>
+        <sys_id>f1abed6a2f969110b63859a72799b64d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183a88e45060000001</sys_recorded_at>
+        <sys_updated_by>TA</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:30:39</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>f9abed6a499691109dc94e51cd8a7d4c</update_guid>
+        <update_guid_history>f9abed6a499691109dc94e51cd8a7d4c:1824192250,3f9be92a6b969110a8fa576905e459a0:-1713061877,8f6bad2a329691103602dc626f09f2e2:1660378643,22eae52a5d969110279f408ee94ae103:1672661966,e84a692aca9691107791df74043e2749:907890861,8eb861a620969110cceda828329e443a:1089121502,b1882da6ca969110c691f883e3f5c839:-199832998,ac38ed66319691101bf207621aa8e6cd:-1930057071,2a976166b2969110191ead679fbf3dc1:-639827539,a856e926bd969110eb0618c0934f9748:-1491214843,361529e2fa9691109bfa460e29aac957:-72867361,c5f4ed62c09691103aa27d583acbc3d4:1053265964,ded4e1e2e59691103f7f2e217fea0ed1:-1491214843,8e64e922f99691103e1a42540ad08416:-202352726,6f43e9624e9691109c0cd022a7968523:595990499,43f26562ef969110fbe4ab96f78c83fe:1414890892,2ce2a5eeb45691108112e162c9493072:2114465580,24f1e56e655691106f991b9f91daa91b:371718391,1f9121226e9691101c82448d8d6a51d9:1957761013,7be025ee1f56911039cfe18b85fed518:-1370289065,bbb025ae3f5691100902aed6d08bec33:1563227764,7b70e92e30569110cb8ecf6a6ced0da4:-897450367,690065ae4a5691102e7c8541d0a70768:-151709926,ddefd1ae435691100fc354938e0f4f37:1913447025,a6afd96e1856911083db8588257cd808:-1735550489,ac8f116ee05691103f7fe26d995ff9bc:1040469329,cdfdddea1b56911072d093ed3d7020c2:719342570,a1cd5dea5f569110830800cabe11534e:-1753235990,8cadd9ea595691102d912f201c8f634e:1049689503,8d8d99ea53569110b7a35350fb2983ef:-1066842536,be5cd5aafe56911061ed0ed599d68bc1:711791477,279b156a3c56911036729cfa182a6abb:-512329337,5d5b556a8b569110a6e5019d44dfe9df:2093389799,5d1b516a06569110ca630e58e14d9cbd:-1391663236,e44a152abd5691107bf7580fd0a6db63:623795414,2ef95de68f569110d53160f74b1e6aef:-428601391,8f69d1e6ad56911061648959b489681c:1834832090</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Set dynamic user name">f93f61ae2f969110b63859a72799b6ea</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-05 14:46:12</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>00d6286224de459e80039191ecba5de4</sys_id>
+        <sys_metadata>4769d1e62f569110b63859a72799b61a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set dynamic user name</sys_name>
+        <sys_package display_value="Icloud Real Estate" source="x_874730_icloud_re">a8b4523b2f061110b63859a72799b6b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Icloud Real Estate">a8b4523b2f061110b63859a72799b6b2</sys_scope>
+        <sys_scope_delete display_value="">96ec03c5910d46109a80415a4bf51840</sys_scope_delete>
+        <sys_update_name>catalog_script_client_4769d1e62f569110b63859a72799b61a</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_4769d1e62f569110b63859a72799b61a">f1abed6a2f969110b63859a72799b64d</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-05 14:46:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
